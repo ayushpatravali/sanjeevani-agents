@@ -134,7 +134,7 @@ def chat_page(agent):
                 # Read bytes (we need to reset pointer if we read before?)
                 # But audio_value is fresh here
                 voice_bytes = audio_value.read()
-                voice_text = transcribe_audio(voice_bytes)
+                voice_text = transcribe_audio(voice_bytes, filename=audio_value.name)
                 
             if voice_text:
                 # We treat this exactly like text input

@@ -5,12 +5,13 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def transcribe_audio(audio_bytes: bytes) -> str:
+def transcribe_audio(audio_bytes: bytes, filename: str = "audio.wav") -> str:
     """
     Transcribe audio bytes using Groq Whisper API.
     
     Args:
         audio_bytes: Raw audio data
+        filename: Name of the file (helps with format detection)
         
     Returns:
         Transcribed text or None if failure
@@ -25,7 +26,7 @@ def transcribe_audio(audio_bytes: bytes) -> str:
         
         # Audio file interface for Groq expects a file-like object with a name
         audio_file = io.BytesIO(audio_bytes)
-        audio_file.name = "audio.wav" # Generic name for Whisper
+        audio_file.name = filename # Use actual filename from browser
         
         logger.info("Sending audio to Groq Whisper...")
         transcription = client.audio.transcriptions.create(
