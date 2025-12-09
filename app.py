@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 import os
 import json
-import speech_recognition as sr
+# import speech_recognition as sr # Removed for Cloud Native
 
 # Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
@@ -18,34 +18,7 @@ st.set_page_config(
     layout="wide"
 )
 
-def recognize_speech():
-    """Record and transcribe speech."""
-    try:
-        r = sr.Recognizer()
-        with sr.Microphone() as source:
-            st.info("Listening... Speak now!")
-            try:
-                audio = r.listen(source, timeout=5)
-                text = r.recognize_google(audio)
-                return text
-            except sr.WaitTimeoutError:
-                st.warning("No speech detected.")
-            except sr.UnknownValueError:
-                st.warning("Could not understand audio.")
-            except sr.RequestError:
-                st.error("Speech service unavailable.")
-            except sr.RequestError:
-                st.error("Speech service unavailable.")
-    except AttributeError:
-        st.warning("🎤 Voice input unavailable. PyAudio is not installed (Common on Cloud).")
-        return None
-    except Exception as e:
-        err_str = str(e).lower()
-        if "no default input device" in err_str or "input device available" in err_str:
-             st.warning("⚠️ No microphone detected. Voice input is disabled on this server.")
-             return None
-        st.error(f"🎤 Microphone error: {e}")
-    return None
+# Legacy voice function removed
 
 # --- Initialization ---
 @st.cache_resource
@@ -135,18 +108,27 @@ def chat_page(agent):
 
     # Input Area
     # Mic button in sidebar to keep chat input static at bottom
+    # Input Area
+    # Microphone Input (Cloud Native)
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🎤 Voice Input")
-    if st.sidebar.button("Start Recording"):
-        voice_text = recognize_speech()
+    
+    # New Streamlit Audio Input Widget
+    audio_value = st.sidebar.audio_input("Record")
+    
+    if audio_value:
+        # Transcribe
+        with st.spinner("Transcribing with Groq..."):
+            from src.tools.audio_utils import transcribe_audio
+            voice_text = transcribe_audio(audio_value.read())
+            
         if voice_text:
-            # We can't programmatically set st.chat_input value easily in Streamlit without rerun tricks
-            # So we'll just submit it directly as a message if voice is used
+            # We treat this exactly like text input
             st.session_state.messages.append({"role": "user", "content": voice_text})
             with st.chat_message("user"):
                 st.markdown(voice_text)
             
-            # Trigger processing immediately
+            # Trigger processing
             with st.chat_message("assistant"):
                 with st.spinner("Thinking..."):
                     try:
@@ -170,15 +152,9 @@ def chat_page(agent):
                                 importlib.reload(map_utils)
                                 fig = map_utils.generate_karnataka_map(locations)
                                 if fig:
-                                    # Fix for deprecation warning: use_container_width=True -> width="stretch" (if supported) 
-                                    # OR just remove the arg if it causes issues, but the warning suggested width='stretch'.
-                                    # However, standard streamlit 1.x still uses use_container_width. 
-                                    # This warning looks like it's from a newer st version.
-                                    # Let's try following the instruction exactly.
                                     try:
                                         st.plotly_chart(fig, width="stretch") 
                                     except:
-                                        # Fallback for older versions
                                         st.plotly_chart(fig, use_container_width=True)
 
                         st.session_state.messages.append({
@@ -188,7 +164,10 @@ def chat_page(agent):
                         })
                     except Exception as e:
                         st.error(f"Error: {e}")
-            st.rerun()
+            # Rerun to clean up state if needed, though audio_input might persist.
+            # Usually strict rerun isn't needed if we append to session_state, 
+            # but it helps show the new history item immediately.
+            # st.rerun() 
 
     prompt = st.chat_input("Ask about plants...")
 
