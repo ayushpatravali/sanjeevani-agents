@@ -113,23 +113,37 @@ def chat_page(agent):
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🎤 Voice Input")
     
-    # New Streamlit Audio Input Widget
-    audio_value = st.sidebar.audio_input("Record")
+    # New Streamlit Audio Input Widget (Requires streamlit>=1.40.0)
+    audio_value = st.sidebar.audio_input("Record Voice Note")
     
+    if "last_audio_id" not in st.session_state:
+        st.session_state.last_audio_id = None
+
     if audio_value:
-        # Transcribe
-        with st.spinner("Transcribing with Groq..."):
-            from src.tools.audio_utils import transcribe_audio
-            voice_text = transcribe_audio(audio_value.read())
+        # Use file ID (if available) or hash of first 100 bytes + size to deduplicate
+        # Streamlit UploadedFile has .id in recent versions, or just use object identity if persistent
+        # A robust way is to read a bit and check
+        audio_id = f"{audio_value.size}_{audio_value.name}"
+        
+        if audio_id != st.session_state.last_audio_id:
+            st.session_state.last_audio_id = audio_id
             
-        if voice_text:
-            # We treat this exactly like text input
-            st.session_state.messages.append({"role": "user", "content": voice_text})
-            with st.chat_message("user"):
-                st.markdown(voice_text)
-            
-            # Trigger processing
-            with st.chat_message("assistant"):
+            # Transcribe
+            with st.spinner("Transcribing with Groq..."):
+                from src.tools.audio_utils import transcribe_audio
+                # Read bytes (we need to reset pointer if we read before?)
+                # But audio_value is fresh here
+                voice_bytes = audio_value.read()
+                voice_text = transcribe_audio(voice_bytes)
+                
+            if voice_text:
+                # We treat this exactly like text input
+                st.session_state.messages.append({"role": "user", "content": voice_text})
+                with st.chat_message("user"):
+                    st.markdown(voice_text)
+                
+                # Trigger processing
+                with st.chat_message("assistant"):
                 with st.spinner("Thinking..."):
                     try:
                         response = agent.query(voice_text, session_id=st.session_state["username"])
