@@ -75,10 +75,18 @@ def get_debug_plants():
             weaviate_manager.connect()
             
         collection = weaviate_manager.client.collections.get(settings.GIS_LOCATION_COLLECTION)
-        # Fetch a small batch
-        response = collection.query.fetch_objects(limit=10)
-        # Fix: Schema has 'district' and 'plants', not 'plant_name'
-        return [f"{obj.properties.get('district')}: {len(obj.properties.get('plants', []))} plants" for obj in response.objects]
+        # Fetch a small batch of districts
+        response = collection.query.fetch_objects(limit=5)
+        
+        # Extract unique plant names from all fetched districts
+        all_plants = set()
+        for obj in response.objects:
+            district_plants = obj.properties.get('plants', [])
+            if district_plants:
+                all_plants.update(district_plants)
+                
+        # Return top 10 unique plants
+        return list(all_plants)[:10]
     except Exception as e:
         return [f"Error: {e}"]
 
