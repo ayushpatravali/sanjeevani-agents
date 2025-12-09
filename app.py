@@ -144,8 +144,8 @@ def chat_page(agent):
                 
                 # Trigger processing
                 with st.chat_message("assistant"):
-                with st.spinner("Thinking..."):
-                    try:
+                    with st.spinner("Thinking..."):
+                        try:
                         response = agent.query(voice_text, session_id=st.session_state["username"])
                         
                         # 1. Answer
