@@ -146,38 +146,38 @@ def chat_page(agent):
                 with st.chat_message("assistant"):
                     with st.spinner("Thinking..."):
                         try:
-                        response = agent.query(voice_text, session_id=st.session_state["username"])
-                        
-                        # 1. Answer
-                        answer_text = response.get("answer", "No answer.")
-                        st.markdown(answer_text)
-                        
-                        # 2. Image Display
-                        img_url = response.get("image_url")
-                        if img_url:
-                            st.image(img_url, caption="Plant Image", width=300)
+                            response = agent.query(voice_text, session_id=st.session_state["username"])
+                            
+                            # 1. Answer
+                            answer_text = response.get("answer", "No answer.")
+                            st.markdown(answer_text)
+                            
+                            # 2. Image Display
+                            img_url = response.get("image_url")
+                            if img_url:
+                                st.image(img_url, caption="Plant Image", width=300)
 
-                        # 3. Map Display
-                        locations = response.get("locations", [])
-                        if locations:
-                            with st.spinner("Generating Map..."):
-                                import src.tools.map_utils as map_utils
-                                import importlib
-                                importlib.reload(map_utils)
-                                fig = map_utils.generate_karnataka_map(locations)
-                                if fig:
-                                    try:
-                                        st.plotly_chart(fig, width="stretch") 
-                                    except:
-                                        st.plotly_chart(fig, use_container_width=True)
+                            # 3. Map Display
+                            locations = response.get("locations", [])
+                            if locations:
+                                with st.spinner("Generating Map..."):
+                                    import src.tools.map_utils as map_utils
+                                    import importlib
+                                    importlib.reload(map_utils)
+                                    fig = map_utils.generate_karnataka_map(locations)
+                                    if fig:
+                                        try:
+                                            st.plotly_chart(fig, width="stretch") 
+                                        except:
+                                            st.plotly_chart(fig, use_container_width=True)
 
-                        st.session_state.messages.append({
-                            "role": "assistant", 
-                            "content": answer_text,
-                            "image_url": img_url
-                        })
-                    except Exception as e:
-                        st.error(f"Error: {e}")
+                            st.session_state.messages.append({
+                                "role": "assistant", 
+                                "content": answer_text,
+                                "image_url": img_url
+                            })
+                        except Exception as e:
+                            st.error(f"Error: {e}")
             # Rerun to clean up state if needed, though audio_input might persist.
             # Usually strict rerun isn't needed if we append to session_state, 
             # but it helps show the new history item immediately.
