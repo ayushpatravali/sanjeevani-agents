@@ -19,16 +19,25 @@ class GISAgent(BaseAgent):
             
             # If BaseAgent failed, try local regex for botanical names
             if not plant_names:
+                # Look for Capitalized words (Common names) or Binomials (Scientific)
+                # Matches: "Neem", "Tulsi", "Azadirachta indica", "Hibiscus rosa-sinensis"
                 import re
-                # Look for Capitalized word followed by lowercase word (e.g. Amaranthus viridis)
-                # Also support hyphenated species names like "Hibiscus rosa-sinensis"
-                matches = re.findall(r'\b([A-Z][a-z]+ [a-z]+(?:-[a-z]+)?)\b', query)
+                matches = re.findall(r'\b([A-Z][a-z]+(?: [a-z]+(?:-[a-z]+)?)?)\b', query)
+                
                 filtered = []
-                stopwords = {"Where", "What", "When", "How", "Why", "Does", "Is", "Are", "Can", "Find", "Show", "Give", "Tell", "Location", "Map", "District"}
+                # Expanded stopwords list to avoid false positives on common sentence starters
+                stopwords = {
+                    "Where", "What", "When", "How", "Why", "Does", "Is", "Are", "Can", 
+                    "Find", "Show", "Give", "Tell", "Location", "Map", "District",
+                    "Which", "The", "A", "An", "In", "On", "At", "From", "To", "And", "Or", "But",
+                    "Plant", "Tree", "Flower", "Herb", "Shrub", "Weed", "Seed", "Fruit", "Leaf", "Root",
+                    "Grown", "Found", "Grow", "Exist", "Live", "Specification", "Specify", "About", "Me"
+                }
                 for m in matches:
+                    # check first word
                     first_word = m.split()[0]
                     if first_word not in stopwords:
-                        filtered.append(m)
+                         filtered.append(m)
                 if filtered:
                     plant_names = filtered
             
