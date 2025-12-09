@@ -32,7 +32,8 @@ class WeaviateManager:
                     url = "https://" + url
                 
                 logger.info(f"Connecting to Weaviate Cloud: {url}")
-                self.client = weaviate.connect_to_wcs(
+                # Fix deprecation: connect_to_wcs -> connect_to_weaviate_cloud
+                self.client = weaviate.connect_to_weaviate_cloud(
                     cluster_url=url,
                     auth_credentials=weaviate.auth.AuthApiKey(api_key)
                 )
@@ -78,35 +79,44 @@ class WeaviateManager:
             return False
         
         # Determine Vectorizer based on environment
-        # If connecting to WCS (Cloud), default to NONE to avoid "Validation Error" (unless user has OpenAI key, but that's complex)
-        # If connecting to Local, use Transformers (as configured in Docker)
         config_url = settings.WEAVIATE_URL.lower()
         is_cloud = "weaviate.cloud" in config_url or "weaviate.network" in config_url
         
         if is_cloud:
-            logger.info("Detected Cloud Environment: Disabling default 'text2vec-transformers' (Using 'none' or 'text2vec-contextionary' if avail)")
-            # Use 'none' to allow creation. Semantic search will rely on BM25 fallback or user-provided vectors.
+            logger.info("Detected Cloud Environment: Disabling default 'text2vec-transformers'")
             vectorizer_config = Configure.Vectorizer.none()
         else:
             logger.info("Detected Local Environment: Using 'text2vec-transformers'")
             vectorizer_config = Configure.Vectorizer.text2vec_transformers()
 
         try:
+            # Helper for properties to ensure BM25 indexing
+            # In v4, index_searchable defaults to True for text, but let's be explicit if getting errors
+            from weaviate.classes.config import Property, DataType, Tokenization
+
+            def text_prop(name, is_array=False):
+                return Property(
+                    name=name, 
+                    data_type=DataType.TEXT_ARRAY if is_array else DataType.TEXT,
+                    tokenization=Tokenization.WORD,  # Required for efficient BM25
+                    index_searchable=True
+                )
+
             # Research Agent Collection
             if not self.client.collections.exists(settings.RESEARCH_COLLECTION):
                 self.client.collections.create(
                     name=settings.RESEARCH_COLLECTION,
                     properties=[
-                        Property(name="plant_id", data_type=DataType.TEXT),
-                        Property(name="botanical_name", data_type=DataType.TEXT),
-                        Property(name="common_names", data_type=DataType.TEXT_ARRAY),
-                        Property(name="family", data_type=DataType.TEXT),
-                        Property(name="traditional_uses", data_type=DataType.TEXT_ARRAY),
-                        Property(name="major_constituents", data_type=DataType.TEXT_ARRAY),
-                        Property(name="pharmacological_activities", data_type=DataType.TEXT),
-                        Property(name="modern_applications", data_type=DataType.TEXT_ARRAY),
-                        Property(name="safety_info", data_type=DataType.TEXT),
-                        Property(name="text_content", data_type=DataType.TEXT),
+                        text_prop("plant_id"),
+                        text_prop("botanical_name"),
+                        text_prop("common_names", True),
+                        text_prop("family"),
+                        text_prop("traditional_uses", True),
+                        text_prop("major_constituents", True),
+                        text_prop("pharmacological_activities"),
+                        text_prop("modern_applications", True),
+                        text_prop("safety_info"),
+                        text_prop("text_content"),
                     ],
                     vectorizer_config=vectorizer_config
                 )
@@ -116,12 +126,12 @@ class WeaviateManager:
                 self.client.collections.create(
                     name=settings.GIS_COLLECTION,
                     properties=[
-                        Property(name="plant_id", data_type=DataType.TEXT),
-                        Property(name="botanical_name", data_type=DataType.TEXT),
-                        Property(name="common_names", data_type=DataType.TEXT_ARRAY),
-                        Property(name="habitat", data_type=DataType.TEXT),
-                        Property(name="distribution", data_type=DataType.TEXT),
-                        Property(name="text_content", data_type=DataType.TEXT),
+                        text_prop("plant_id"),
+                        text_prop("botanical_name"),
+                        text_prop("common_names", True),
+                        text_prop("habitat"),
+                        text_prop("distribution"),
+                        text_prop("text_content"),
                     ],
                     vectorizer_config=vectorizer_config
                 )
@@ -131,12 +141,12 @@ class WeaviateManager:
                 self.client.collections.create(
                     name=settings.IUCN_COLLECTION,
                     properties=[
-                        Property(name="plant_id", data_type=DataType.TEXT),
-                        Property(name="botanical_name", data_type=DataType.TEXT),
-                        Property(name="common_names", data_type=DataType.TEXT_ARRAY),
-                        Property(name="iucn_status", data_type=DataType.TEXT),
-                        Property(name="threat_info", data_type=DataType.TEXT),
-                        Property(name="text_content", data_type=DataType.TEXT),
+                        text_prop("plant_id"),
+                        text_prop("botanical_name"),
+                        text_prop("common_names", True),
+                        text_prop("iucn_status"),
+                        text_prop("threat_info"),
+                        text_prop("text_content"),
                     ],
                     vectorizer_config=vectorizer_config
                 )
@@ -148,13 +158,11 @@ class WeaviateManager:
                 self.client.collections.create(
                     name=settings.GIS_LOCATION_COLLECTION,
                     properties=[
-                        Property(name="district", data_type=DataType.TEXT),
+                        text_prop("district"),
                         Property(name="location", data_type=DataType.GEO_COORDINATES),
-                        Property(name="plants", data_type=DataType.TEXT_ARRAY),
-                        Property(name="soils", data_type=DataType.TEXT),
+                        text_prop("plants", True), # Crucial for finding plants!
+                        text_prop("soils"),
                     ],
-                    # No vectorizer needed for pure filter search
-                    # vector_config=Configure.Vectorizer.text2vec_transformers() 
                 )
                 logger.info(f"Created {settings.GIS_LOCATION_COLLECTION} collection")
             else:

@@ -34,7 +34,8 @@ venv/
 Thumbs.db
 
 # Project Specific
-data/karnataka_districts.geojson
+# Project Specific
+# data/karnataka_districts.geojson (Commented out to allow push)
 # Only ignore large files or personal data. 
 # We keep json data if small, but geojson might be large (it was <500kb so okay to keep or ignore).
 # Let's keep it for portability unless user wants clean repo.
