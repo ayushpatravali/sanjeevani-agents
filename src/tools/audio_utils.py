@@ -30,7 +30,7 @@ def transcribe_audio(audio_bytes: bytes) -> str:
         logger.info("Sending audio to Groq Whisper...")
         transcription = client.audio.transcriptions.create(
             file=(audio_file.name, audio_file.read()),
-            model="distil-whisper-large-v3-en",
+            model="whisper-large-v3",
             response_format="json",
             language="en",
             temperature=0.0
