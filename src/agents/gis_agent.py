@@ -19,25 +19,32 @@ class GISAgent(BaseAgent):
             
             # If BaseAgent failed, try local regex for botanical names
             if not plant_names:
-                # Look for Capitalized words (Common names) or Binomials (Scientific)
-                # Matches: "Neem", "Tulsi", "Azadirachta indica", "Hibiscus rosa-sinensis"
+                # Look for ANY words (Common names or Scientific), Case-Insensitive
+                # Matches: "Neem", "sarpagandha", "Azadirachta indica"
                 import re
-                matches = re.findall(r'\b([A-Z][a-z]+(?: [a-z]+(?:-[a-z]+)?)?)\b', query)
+                # Relaxed regex to capture lowercase words too
+                matches = re.findall(r'\b([a-zA-Z]+(?: [a-zA-Z]+(?:-[a-zA-Z]+)?)?)\b', query)
                 
                 filtered = []
-                # Expanded stopwords list to avoid false positives on common sentence starters
-                stopwords = {
-                    "Where", "What", "When", "How", "Why", "Does", "Is", "Are", "Can", 
-                    "Find", "Show", "Give", "Tell", "Location", "Map", "District",
-                    "Which", "The", "A", "An", "In", "On", "At", "From", "To", "And", "Or", "But",
-                    "Plant", "Tree", "Flower", "Herb", "Shrub", "Weed", "Seed", "Fruit", "Leaf", "Root",
-                    "Grown", "Found", "Grow", "Exist", "Live", "Specification", "Specify", "About", "Me"
+                # Expanded stopwords list
+                stopwords_set = {
+                    "where", "what", "when", "how", "why", "does", "is", "are", "can", "could", "would",
+                    "find", "show", "give", "tell", "say", "know", "location", "map", "district", "place",
+                    "which", "the", "a", "an", "in", "on", "at", "from", "to", "and", "or", "but", "with",
+                    "plant", "tree", "flower", "herb", "shrub", "weed", "seed", "fruit", "leaf", "root", "stem",
+                    "grown", "found", "grow", "exist", "live", "specification", "specify", "about", "me", "us",
+                    "detail", "details", "info", "information", "description", "describe", "uses", "medical",
+                    "medicine", "medicinal", "family", "unknown", "name", "botanical", "common"
                 }
+                
                 for m in matches:
-                    # check first word
-                    first_word = m.split()[0]
-                    if first_word not in stopwords:
+                    # check first word (converted to lower for stopword check)
+                    first_word = m.split()[0].lower()
+                    if first_word not in stopwords_set:
+                         # Keep original case for extraction, but maybe Title Case it later?
+                         # Actually, we keep original here. search_terms prepares lower/title versions.
                          filtered.append(m)
+                
                 if filtered:
                     plant_names = filtered
             
