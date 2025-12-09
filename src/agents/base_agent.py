@@ -198,8 +198,14 @@ class BaseAgent(ABC):
             results = self.collection.query.near_text(query=query, limit=limit)
             return [hit.properties for hit in results.objects]
         except Exception as e:
-            logger.error(f"{self.name} semantic search failed: {e}")
-            return []
+            logger.warning(f"{self.name} semantic search (near_text) failed: {e}. Attempting BM25 Fallback.")
+            try:
+                # BM25 Fallback for environments without vectorizer (e.g., WCS Free Tier)
+                results = self.collection.query.bm25(query=query, limit=limit)
+                return [hit.properties for hit in results.objects]
+            except Exception as e2:
+                logger.error(f"{self.name} BM25 fallback also failed: {e2}")
+                return []
 
     def _validate_results(self, results: List[Dict], query: str) -> Tuple[List[Dict], List[str]]:
         """Validate if results match the queried plant names and provide warnings."""

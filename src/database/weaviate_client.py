@@ -22,12 +22,34 @@ class WeaviateManager:
             # Close existing if any (just in case)
             self.close()
 
-            if settings.WEAVIATE_API_KEY:
-                self.client = weaviate.connect_to_local(
-                    host=settings.WEAVIATE_URL.replace("http://", "").replace("https://", ""),
-                    auth_credentials=weaviate.auth.AuthApiKey(settings.WEAVIATE_API_KEY)
+            url = settings.WEAVIATE_URL
+            api_key = settings.WEAVIATE_API_KEY
+
+            # Cloud Connection (WCS)
+            if "weaviate.cloud" in url or "weaviate.network" in url:
+                # Ensure HTTPS
+                if not url.startswith("https://"):
+                    url = "https://" + url
+                
+                logger.info(f"Connecting to Weaviate Cloud: {url}")
+                self.client = weaviate.connect_to_wcs(
+                    cluster_url=url,
+                    auth_credentials=weaviate.auth.AuthApiKey(api_key)
                 )
+            
+            # Local Custom Connection (with Auth)
+            elif api_key:
+                logger.info(f"Connecting to Local Weaviate (Auth): {url}")
+                # Clean URL for connect_to_local
+                host = url.replace("http://", "").replace("https://", "")
+                self.client = weaviate.connect_to_local(
+                    host=host,
+                    auth_credentials=weaviate.auth.AuthApiKey(api_key)
+                )
+            
+            # Local Anonymous Connection
             else:
+                logger.info(f"Connecting to Local Weaviate (Anonymous): {url}")
                 self.client = weaviate.connect_to_local()
                 
             if self.client.is_ready():
@@ -54,6 +76,21 @@ class WeaviateManager:
         if not self.client:
             logger.error("No Weaviate connection available")
             return False
+        
+        # Determine Vectorizer based on environment
+        # If connecting to WCS (Cloud), default to NONE to avoid "Validation Error" (unless user has OpenAI key, but that's complex)
+        # If connecting to Local, use Transformers (as configured in Docker)
+        config_url = settings.WEAVIATE_URL.lower()
+        is_cloud = "weaviate.cloud" in config_url or "weaviate.network" in config_url
+        
+        if is_cloud:
+            logger.info("Detected Cloud Environment: Disabling default 'text2vec-transformers' (Using 'none' or 'text2vec-contextionary' if avail)")
+            # Use 'none' to allow creation. Semantic search will rely on BM25 fallback or user-provided vectors.
+            vectorizer_config = Configure.Vectorizer.none()
+        else:
+            logger.info("Detected Local Environment: Using 'text2vec-transformers'")
+            vectorizer_config = Configure.Vectorizer.text2vec_transformers()
+
         try:
             # Research Agent Collection
             if not self.client.collections.exists(settings.RESEARCH_COLLECTION):
@@ -71,7 +108,7 @@ class WeaviateManager:
                         Property(name="safety_info", data_type=DataType.TEXT),
                         Property(name="text_content", data_type=DataType.TEXT),
                     ],
-                    vector_config=Configure.Vectorizer.text2vec_transformers()
+                    vectorizer_config=vectorizer_config
                 )
                 logger.info(f"Created {settings.RESEARCH_COLLECTION} collection")
             # GIS Agent Collection
@@ -86,7 +123,7 @@ class WeaviateManager:
                         Property(name="distribution", data_type=DataType.TEXT),
                         Property(name="text_content", data_type=DataType.TEXT),
                     ],
-                    vector_config=Configure.Vectorizer.text2vec_transformers()
+                    vectorizer_config=vectorizer_config
                 )
                 logger.info(f"Created {settings.GIS_COLLECTION} collection")
             # IUCN Agent Collection
@@ -101,7 +138,7 @@ class WeaviateManager:
                         Property(name="threat_info", data_type=DataType.TEXT),
                         Property(name="text_content", data_type=DataType.TEXT),
                     ],
-                    vector_config=Configure.Vectorizer.text2vec_transformers()
+                    vectorizer_config=vectorizer_config
                 )
                 logger.info(f"Created {settings.IUCN_COLLECTION} collection")
             # GIS Location Collection (New)
