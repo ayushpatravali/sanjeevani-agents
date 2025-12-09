@@ -1,0 +1,5010 @@
+[
+   {
+  "id": "alpinia_galanga",
+  "common_names": [
+    "Greater galangal",
+    "Lengkuas",
+    "Blue ginger",
+    "Thai ginger",
+    "Mahabharivacha"
+  ],
+  "botanical_name": "Alpinia galanga (L.) Willd",
+  "family": "Zingiberaceae",
+  "description": {
+    "overview": "A perennial, aromatic, rhizomatous herb essential to Southeast Asian and Indian cuisine, with a centuries-old role in traditional medicine for diverse ailments.",
+    "habitat": "Native to tropical Southeast Asia; widely cultivated throughout India, Thailand, Indonesia, Malaysia, and southern China in forests, fields, and garden plots.",
+    "plant_parts_used": [
+      "Rhizome",
+      "Leaves",
+      "Flowers"
+    ]
+  },
+  "iucn_status": {
+    "status": "Not Evaluated (NE) globally; not listed as threatened. Some related Zingiberaceae are regionally endangered due to habitat loss.",
+    "sources": [
+      "https://philippineplants.org/Families/Zingiberaceae.html",
+      "https://indiabiodiversity.org/species/show/258877"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Gastrointestinal tonic",
+      "context": "Decoctions from the rhizome used for indigestion, bloating, and loss of appetite in Ayurveda and traditional Thai, Malay, and Javanese medicine."
+    },
+    {
+      "use": "Respiratory remedy",
+      "context": "Powdered rhizome or teas for cough, sore throat, bronchitis, and mouth/larynx freshness."
+    },
+    {
+      "use": "Topical rub for pain",
+      "context": "Crushed rhizome or infusions rubbed onto the body for muscle aches, neuralgia, joint pain, and general warming (balms used in Thai massage)."
+    },
+    {
+      "use": "Aphrodisiac/fertility",
+      "context": "Used for erectile dysfunction and as an emmenagogue in Unani and Siddha traditions."
+    },
+    {
+      "use": "Antitoxic/anti-infective",
+      "context": "Ingested after suspected food poisoning, worms, or other 'contaminations.'"
+    },
+    {
+      "use": "Other folk uses",
+      "context": "Treats constipation, urinary issues, and mild dental complaints; also used in rituals."
+    }
+  ],
+  "major_constituents": [
+    "Essential oils (1′-acetoxychavicol acetate, 1,8-cineole, eugenol, methyl cinnamate, camphor)",
+    "Flavonoids (galangin, alpinin, kaempferide)",
+    "Diarylheptanoids",
+    "Phenolic acids",
+    "Tannins",
+    "Sterols (β-sitosterol, γ-sitosterol)",
+    "Volatile terpenoids"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Inhibits production of TNF-α, COX-2, and boosts IL-10, TGF-β; due to diarylheptanoids and flavonoids.",
+      "evidence": "Multiple animal model studies and in vitro work confirm acute and chronic anti-inflammation (Darvish et al., Phytother Res. 2016; Khan et al., J. Pharm. Pharmacol. 2019)[1][2]."
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Essential oil and rhizome extracts inhibit Gram-positive and Gram-negative bacteria and fungal pathogens; diterpenoids are implicated.",
+      "evidence": "Strong in vitro and some in vivo evidence for antibacterial and antifungal effects (Song et al., Molecules 2017)[3]."
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Scavenging of radicals (DPPH, ABTS) through phenolic content.",
+      "evidence": "Chompoo et al., Food Chem. 2014; in vitro/animal models[4]."
+    },
+    {
+      "name": "Gastroprotective",
+      "mechanism": "Prevents ethanol-induced ulcers in rat models, likely via mucosal protection.",
+      "evidence": "Shimizu et al., Planta Med. 2013[5]."
+    },
+    {
+      "name": "COX-2 inhibition",
+      "mechanism": "Direct suppression of cyclooxygenase-2 enzyme (inflammation).",
+      "evidence": "Sripanidkulchai & Rattanakaruna, Biomed Res Int. 2018[6]."
+    },
+    {
+      "name": "Antidiabetic",
+      "mechanism": "Inhibits α-glucosidase, helping lower post-meal blood sugar spikes.",
+      "evidence": "Bhandari et al., J. Diabetes Res. 2018[7]."
+    },
+    {
+      "name": "Cytotoxic / anticancer",
+      "mechanism": "Extracts active against HepG2 liver cells, MCF-7 breast cancer lines (inducing apoptosis).",
+      "evidence": "Chen et al., Anticancer Res. 2017[8]."
+    },
+    {
+      "name": "Larvicidal",
+      "mechanism": "Kills mosquito larvae (Aedes aegypti).",
+      "evidence": "Rahuman et al., Parasitol Res. 2015[9]."
+    },
+    {
+      "name": "Anti-arthritic",
+      "mechanism": "Reduces swelling and immune infiltration in arthritis animal models.",
+      "evidence": "Khan et al., J. Pharm. Pharmacol. 2019[2]."
+    },
+    {
+      "name": "Neuroprotective",
+      "mechanism": "Improves alertness/mood (synergy with caffeine); possible protection against neurodegeneration.",
+      "evidence": "Human clinical trials (Wesnes et al., Appetite 2017)[10]."
+    }
+  ],
+  "modern_applications": [
+    "Standardized rhizome extracts in herbal teas, digestive formulas, immune support, and anti-inflammatory supplements.",
+    "Active ingredient in topical creams, gels, and Thai balms for pain/inflammation.",
+    "Bioactive flavoring and essential oil in food and beverage industries.",
+    "Ingredient in oral care (mouthwashes, toothpaste); minor cosmetic uses."
+  ],
+  "safety": {
+    "acute_toxicity": "No acute toxicity up to 2,000 mg/kg in rodent studies; LD50 above 2,000 mg/kg (ethanolic extract).",
+    "chronic_toxicity": "Long-term high-dose administration can cause mild liver and kidney changes in animals; considered low-risk in human food/medicinal doses.",
+    "precautions": [
+      "Not for unsupervised use in pregnancy or breastfeeding.",
+      "Use with care in gallstone patients and those with sensitive GI tracts.",
+      "Monitor for drug-herb interactions if used with prescription medications.",
+      "Avoid unprocessed rhizome in those with spice allergies."
+    ],
+    "sources": [
+      "https://www.ijmrhs.com/medical-research/phytochemical-screening-and-acute-toxicity-study-of-ethanolic-extract-of-alpinia-galanga-in-rodents.pdf",
+      "WHO Monographs on Selected Medicinal Plants (Vol. 4)",
+      "PubMed: 31284921, 35227783, 28910196, 29571480, 22015185"
+    ]
+  },
+  "references": [
+    "Darvish et al., Phytother Res. 2016",
+    "Khan et al., J. Pharm. Pharmacol. 2019",
+    "Song et al., Molecules 2017",
+    "Chompoo et al., Food Chem. 2014",
+    "Shimizu et al., Planta Med. 2013",
+    "Sripanidkulchai & Rattanakaruna, Biomed Res Int. 2018",
+    "Bhandari et al., J. Diabetes Res. 2018",
+    "Chen et al., Anticancer Res. 2017",
+    "Rahuman et al., Parasitol Res. 2015",
+    "Wesnes et al., Appetite 2017",
+    "WHO Monographs; CO’s Digital Flora of the Philippines",
+    "India Biodiversity Portal",
+    "PMC5414456, PMC8148398"
+  ]
+},
+{
+  "id": "amaranthus_viridis",
+  "common_names": ["Slender amaranth", "Green amaranth"],
+  "botanical_name": "Amaranthus viridis",
+  "family": "Amaranthaceae",
+  "description": {
+    "overview": "A fast-growing annual herbaceous plant valued for its edible leaves and seeds, used both as a vegetable and for its medicinal properties in various traditional systems.",
+    "habitat": "Widely distributed in tropical and subtropical regions of Asia, Africa, and the Americas; common in disturbed soils, waste places, and cultivated as a leafy vegetable.",
+    "plant_parts_used": ["Leaves", "Seeds"]
+  },
+  "iucn_status": {
+    "status": "Not Evaluated (NE) globally",
+    "sources": [
+      "IUCN Red List (2024): Not assessed for this species.",
+      "India Biodiversity Portal"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Fever and headache remedy",
+      "context": "Leaf decoction traditionally administered to reduce fever and relieve headache in Ayurveda and African herbal medicine."
+    },
+    {
+      "use": "Galactagogue",
+      "context": "Leaves consumed post-partum to promote lactation in Indian and Southeast Asian folk medicine."
+    },
+    {
+      "use": "Edible leafy vegetable",
+      "context": "Widely cooked as a nutritious ‘saag’ or green in Indian, African, and Southeast Asian cuisines."
+    },
+    {
+      "use": "Purgative and anti-diarrheal",
+      "context": "Seeds and leaves used in mild constipation and some folk diarrheal remedies."
+    }
+  ],
+  "major_constituents": [
+    "Phenolic acids (e.g. gallic acid, ferulic acid)",
+    "Flavonoids (quercetin, rutin, kaempferol)",
+    "Betalains",
+    "Saponins",
+    "Alkaloids",
+    "Calcium",
+    "Iron",
+    "Dietary fiber",
+    "Protein"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Antioxidant",
+      "mechanism": "Scavenges free radicals and reduces erythrocyte oxidative stress via polyphenolic compounds.",
+      "evidence": "Falade & Ojo, Phytochem Anal. 2013"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Protects against chemically-induced liver damage in animal models.",
+      "evidence": "Latha & Daisy, Avicenna J. Phytomed. 2015"
+    },
+    {
+      "name": "Analgesic",
+      "mechanism": "Reduces pain responses in hot-plate and writhing models.",
+      "evidence": "Murthy et al., Asian Pac J Trop Biomed. 2017"
+    },
+    {
+      "name": "Anti-diarrheal",
+      "mechanism": "Modulates intestinal motility; reduces gut inflammation.",
+      "evidence": "Mishra et al., J. Ethnopharmacol. 2018"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Inhibits growth of pathogenic bacteria and some fungi.",
+      "evidence": "Radhakrishnan & Sapna, BMC Complement Altern Med. 2016"
+    },
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Suppresses expression of pro-inflammatory cytokines, especially TNF-alpha.",
+      "evidence": "Azevedo et al., Inflammation 2016"
+    }
+  ],
+  "modern_applications": [
+    "Used as a functional leafy green in nutrition-sensitive programs.",
+    "Leaf extracts studied for antioxidant supplements.",
+    "Potential source of natural colorants (betalains) and dietary fiber in foods."
+  ],
+  "safety": {
+    "acute_toxicity": "Demonstrates low toxicity; safe up to 500 µg/mL in cell-line studies and in traditional dietary intake.",
+    "chronic_toxicity": "No significant safety issues reported in humans at dietary levels.",
+    "precautions": [
+      "High or prolonged usage may cause mild digestive upset.",
+      "Consult healthcare provider for medicinal use during pregnancy."
+    ],
+    "sources": [
+      "Patel et al., J. Toxicol Sci. 2018",
+      "Singh et al., Mutagenesis 2017"
+    ]
+  },
+  "references": [
+    "Falade & Ojo, Phytochem Anal. 2013",
+    "Latha & Daisy, Avicenna J. Phytomed. 2015",
+    "Murthy et al., Asian Pac J Trop Biomed. 2017",
+    "Mishra et al., J. Ethnopharmacol. 2018",
+    "Azevedo et al., Inflammation 2016",
+    "Radhakrishnan & Sapna, BMC Complement Altern Med. 2016"
+  ]
+},
+{
+  "id": "artocarpus_heterophyllus",
+  "common_names": ["Jackfruit"],
+  "botanical_name": "Artocarpus heterophyllus",
+  "family": "Moraceae",
+  "description": {
+    "overview": "A large evergreen tropical tree with the largest tree-borne fruit, valued for its food and medicinal uses in South Asia.",
+    "habitat": "Native to the Western Ghats of India; cultivated throughout tropical Asia, Africa, and the Americas. Thrives in humid tropical forests and plantations.",
+    "plant_parts_used": ["Fruit", "Seeds", "Latex", "Leaves", "Roots"]
+  },
+  "iucn_status": {
+    "status": "Least Concern (LC)",
+    "sources": ["IUCN Red List (2024), India Biodiversity Portal"]
+  },
+  "traditional_uses": [
+    {
+      "use": "Topical latex",
+      "context": "Applied to wounds, ulcers, and skin infections for antiseptic effect."
+    },
+    {
+      "use": "Cough and throat ailments",
+      "context": "Decoction from fruit pulp or latex to alleviate cough and sore throat."
+    },
+    {
+      "use": "Anti-asthmatic",
+      "context": "Leaf infusions given in traditional medicine for respiratory symptoms and asthma."
+    },
+    {
+      "use": "Fruit consumption",
+      "context": "Consumed as ripe or unripe fruit (curries & desserts); seeds also eaten as protein source."
+    }
+  ],
+  "major_constituents": [
+    "Tannins",
+    "Saponins",
+    "Flavonoids (quercetin, morin)",
+    "Stilbenes (resveratrol)",
+    "Artocarpin",
+    "Dietary fiber",
+    "Vitamin C"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Anthelmintic",
+      "mechanism": "Destroys intestinal helminths in rodent models.",
+      "evidence": "Costa-Junior et al., J. Ethnopharmacol. 2017"
+    },
+    {
+      "name": "Anti-diabetic",
+      "mechanism": "Improves insulin sensitivity and reduces blood glucose.",
+      "evidence": "Verma et al., Phytomedicine 2018"
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Scavenges free radicals and enhances antioxidant capacity (FRAP assay).",
+      "evidence": "Han et al., Food Sci Nutr. 2017"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Reduces chemically-induced liver injury.",
+      "evidence": "Ramesh et al., Toxicol Rep. 2019"
+    },
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Suppression of inflammatory cytokines (IL-1β).",
+      "evidence": "Shah et al., Int Immunopharmacol. 2018"
+    },
+    {
+      "name": "Cytotoxic",
+      "mechanism": "Anti-proliferative against cancer cell lines (MCF-7, HeLa).",
+      "evidence": "Lopes et al., Cancer Lett. 2019"
+    },
+    {
+      "name": "Wound healing",
+      "mechanism": "Increases tissue repair and healing in models of excision wounds.",
+      "evidence": "Kumar et al., Wound Med. 2017"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Active against a range of bacteria, including E. coli and Candida albicans.",
+      "evidence": "Singh & Singh, Braz J Microbiol. 2018"
+    }
+  ],
+  "modern_applications": [
+    "Fruit powders and extracts in health foods and snack bars.",
+    "Jackfruit latex/plant extract in wound-healing and skincare products.",
+    "Potential dietary fiber supplement and ingredient for meat alternatives."
+  ],
+  "safety": {
+    "acute_toxicity": "LD50 > 5 g/kg in mice (fruit extract); considered safe as food and folk remedy.",
+    "chronic_toxicity": "No safety issues noted from consumption of ripe fruit.",
+    "precautions": [
+      "Allergic reactions possible in latex-sensitive individuals.",
+      "Unripe latex (high concentration) for internal use is not advised."
+    ],
+    "sources": [
+      "Ghosh et al., Toxicol Ind Health 2017",
+      "Regulatory & risk assessment reports (Food Safety Authority of India)"
+    ]
+  },
+  "references": [
+    "Costa-Junior et al., J. Ethnopharmacol. 2017",
+    "Verma et al., Phytomedicine 2018",
+    "Han et al., Food Sci Nutr. 2017",
+    "Ramesh et al., Toxicol Rep. 2019",
+    "Shah et al., Int Immunopharmacol. 2018",
+    "Lopes et al., Cancer Lett. 2019",
+    "Singh & Singh, Braz J Microbiol. 2018",
+    "Kumar et al., Wound Med. 2017"
+  ]
+},
+{
+  "id": "azadirachta_indica",
+  "common_names": ["Neem", "Indian lilac"],
+  "botanical_name": "Azadirachta indica",
+  "family": "Meliaceae",
+  "description": {
+    "overview": "An evergreen tree, highly esteemed in Indian traditional medicine, agriculture, and personal care for its powerful bioactive compounds.",
+    "habitat": "Native to Indian subcontinent; planted and naturalized throughout tropical Asia and Africa. Drought tolerant; grows well in arid/semi-arid zones.",
+    "plant_parts_used": ["Leaves", "Bark", "Seeds", "Oil"]
+  },
+  "iucn_status": {
+    "status": "Not Evaluated (NE) globally; widely available and not considered threatened.",
+    "sources": [
+      "India Biodiversity Portal",
+      "WHO Monographs; no IUCN Red List entry"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Anti-venom adjuvant",
+      "context": "Leaves and bark administered alongside antivenom for snake bites (Ayurveda)."
+    },
+    {
+      "use": "Detoxification (panchakarma)",
+      "context": "Leaves (Nimba churna) used in blood purification and as part of 'panchakarma' for detox in Ayurveda."
+    },
+    {
+      "use": "Skin and wound care",
+      "context": "Crushed leaves and oil applied to boils, eczema, and wounds as antiseptic."
+    },
+    {
+      "use": "Dental hygiene",
+      "context": "Neem twigs chewed as herbal toothbrush; leaf/stem extracts for mouthwashes."
+    },
+    {
+      "use": "Pest/fungal control",
+      "context": "Seeds and oil applied as traditional biopesticide and anti-fungal agent."
+    }
+  ],
+  "major_constituents": [
+    "Azadirachtin",
+    "Nimbin",
+    "Salannin",
+    "Quercetin",
+    "Kaempferol",
+    "Margosin",
+    "Nimbidin",
+    "Gedunin"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Broad-spectrum inhibition of bacteria, fungi, protozoa.",
+      "evidence": "Biswas et al., Phytother Res. 2014"
+    },
+    {
+      "name": "Antimalarial",
+      "mechanism": "Inhibits Plasmodium falciparum.",
+      "evidence": "Chaudhary et al., Malar J. 2017"
+    },
+    {
+      "name": "Insecticidal",
+      "mechanism": "Active compounds (azadirachtin) disrupt pest hormonal systems.",
+      "evidence": "Isman, J. Agric Food Chem. 2015"
+    },
+    {
+      "name": "Anti-hyperglycemic",
+      "mechanism": "Protects pancreatic β-cells, lowers glucose.",
+      "evidence": "Patil & Patil, J. Ethnopharmacol. 2018"
+    },
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Suppression of inflammatory pathways (COX, cytokines).",
+      "evidence": "Eltayeb et al., Inflammopharmacology 2017"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Protects liver against toxins.",
+      "evidence": "Ahmed et al., Pharm Biol. 2019"
+    },
+    {
+      "name": "Cardioprotective",
+      "mechanism": "Reduces myocardial injury in animal models.",
+      "evidence": "Singh et al., J. Appl. Pharm Sci. 2018"
+    },
+    {
+      "name": "Dental plaque inhibition",
+      "mechanism": "Inhibits biofilm formation by oral bacteria.",
+      "evidence": "Prabhakar et al., Arch Oral Biol. 2016"
+    },
+    {
+      "name": "Immunomodulatory",
+      "mechanism": "Enhances immune response in animal and in vitro models.",
+      "evidence": "Mishra et al., Int Immunopharmacol. 2017"
+    },
+    {
+      "name": "Skin lightening",
+      "mechanism": "Tyrosinase inhibition; reduces pigmentation.",
+      "evidence": "Lee et al., J Cosmet Sci. 2018"
+    }
+  ],
+  "modern_applications": [
+    "Neem oil and extracts in eco-friendly agriculture (biopesticides).",
+    "Ingredients in oral hygiene, dermatology and cosmetic products.",
+    "Leaf extract used in supplements for immune and glucose support."
+  ],
+  "safety": {
+    "acute_toxicity": "Oral leaf/bark use up to 1g/day tolerated in adults. Oils more toxic; minimum lethal dose in children approx 5 ml undiluted oil.",
+    "chronic_toxicity": "Long-term use may cause hepatic stress at high doses.",
+    "precautions": [
+      "Avoid large doses of seed oil internally, especially in young children.",
+      "Not recommended in pregnancy or for infants.",
+      "Possible allergies (oral or contact) in sensitive individuals."
+    ],
+    "sources": [
+      "WHO Monograph on Selected Medicinal Plants (2013)",
+      "India Biodiversity Portal"
+    ]
+  },
+  "references": [
+    "Biswas et al., Phytother Res. 2014",
+    "Chaudhary et al., Malar J. 2017",
+    "Isman, J. Agric Food Chem. 2015",
+    "Patil & Patil, J. Ethnopharmacol. 2018",
+    "Eltayeb et al., Inflammopharmacology 2017",
+    "Ahmed et al., Pharm Biol. 2019",
+    "Singh et al., J. Appl. Pharm Sci. 2018",
+    "Prabhakar et al., Arch Oral Biol. 2016",
+    "Mishra et al., Int Immunopharmacol. 2017",
+    "Lee et al., J Cosmet Sci. 2018"
+  ]
+}
+,
+{
+  "id": "uraria_picta",
+  "common_names": ["Prishniparni"],
+  "botanical_name": "Uraria picta",
+  "family": "Fabaceae",
+  "description": {
+    "overview": "A small perennial under-shrub, crucial in Ayurveda’s Dashamoola, valued for anti-inflammatory and rejuvenating action.",
+    "habitat": "Naturally found throughout India, Southeast Asia, and the Himalayas; prefers open grasslands, forest margins and dry-waste lands.",
+    "plant_parts_used": ["Whole plant", "Leaves", "Roots"]
+  },
+  "iucn_status": {
+    "status": "Least Concern (LC), but locally scarce due to over-collection for Ayurveda.",
+    "sources": [
+      "India Biodiversity Portal",
+      "Plants of the World Online (Royal Botanic Gardens, Kew)"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Anti-inflammatory for joints",
+      "context": "Decoction/pastes for arthritis, joint pains; one of the ten roots in Dashamoola."
+    },
+    {
+      "use": "Wound/ulcer healing",
+      "context": "Poultices applied to skin ulcers, eczema, and inflammatory skin diseases."
+    },
+    {
+      "use": "General tonic",
+      "context": "Powdered whole plant taken to strengthen the body in convalescence and respiratory illness."
+    }
+  ],
+  "major_constituents": [
+    "Flavonoids (e.g. kaempferol glycosides)",
+    "Sterols (β-sitosterol)",
+    "Tannins",
+    "Saponins",
+    "Urarioside",
+    "Uraria saponins",
+    "Triterpenes"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Antipyretic",
+      "mechanism": "Reduction of yeast-induced fever in animal models.",
+      "evidence": "Lakshmi et al., Int J Pharm Sci Res. 2016"
+    },
+    {
+      "name": "Anti-arthritic",
+      "mechanism": "Reduces inflammation and joint swelling; suppresses arthritis symptoms.",
+      "evidence": "Thomas et al., Inflammopharmacology 2018"
+    },
+    {
+      "name": "Analgesic",
+      "mechanism": "Decreases responses to pain in validated pain models.",
+      "evidence": "Naveen et al., J. Ethnopharmacol. 2019"
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Free radical scavenging (ABTS, DPPH assays).",
+      "evidence": "Rajesh et al., Food Chem. 2017"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Protects liver tissue from chemical injury.",
+      "evidence": "Sinha & Pradhan, Pharm Biol. 2018"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Prevents growth of S. aureus & P. aeruginosa.",
+      "evidence": "Selvakumar & Naveen, BMC Complement Altern Med. 2019"
+    },
+    {
+      "name": "Immunostimulant",
+      "mechanism": "Enhances immune markers in animal studies.",
+      "evidence": "Veerendra et al., J. Immunol Res. 2016"
+    },
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "NF-κB pathway inhibition.",
+      "evidence": "Patel et al., Molecules 2019"
+    },
+    {
+      "name": "Cytotoxic",
+      "mechanism": "Selective activity against HeLa cancer cell lines.",
+      "evidence": "Shah & Patel, Cancer Sci. 2019"
+    }
+  ],
+  "modern_applications": [
+    "Plant extracts in joint health and anti-arthritic nutraceuticals.",
+    "Ingredient in polyherbal skin creams for inflammatory dermatoses."
+  ],
+  "safety": {
+    "acute_toxicity": "No acute toxicity up to 2g/kg in rodents; considered safe in recommended Ayurveda doses.",
+    "chronic_toxicity": "No long-term adverse outcomes known.",
+    "precautions": [
+      "Avoid unregulated high-dose use.",
+      "Pregnancy safety evidence lacking: traditional avoidance advised."
+    ],
+    "sources": [
+      "Raju et al., Toxicol Lett. 2018"
+    ]
+  },
+  "references": [
+    "Lakshmi et al., Int J Pharm Sci Res. 2016",
+    "Thomas et al., Inflammopharmacology 2018",
+    "Naveen et al., J. Ethnopharmacol. 2019",
+    "Rajesh et al., Food Chem. 2017",
+    "Sinha & Pradhan, Pharm Biol. 2018",
+    "Veerendra et al., J. Immunol Res. 2016",
+    "Patel et al., Molecules 2019",
+    "Selvakumar & Naveen, BMC Complement Altern Med. 2019",
+    "Shah & Patel, Cancer Sci. 2019"
+  ]
+}
+,
+{
+  "id": "mentha",
+  "common_names": ["Mint", "Pudina"],
+  "botanical_name": "Mentha spp.",
+  "family": "Lamiaceae",
+  "description": {
+    "overview": "Aromatic perennial herb widely used as a food flavoring, digestive aid, and medicinal plant across the world.",
+    "habitat": "Native to temperate Europe and Asia; naturalized and cultivated worldwide.",
+    "plant_parts_used": ["Leaves", "Stems", "Essential oil"]
+  },
+  "iucn_status": {
+    "status": "Varies by species; none of the commonly cultivated mints are endangered.",
+    "sources": [
+      "Kew Plants of the World Online",
+      "IUCN Red List (several species non-threatened)"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Digestive aid",
+      "context": "Mint leaf tea or infusions used to soothe indigestion, gas and colic."
+    },
+    {
+      "use": "Respiratory support",
+      "context": "Inhaled vapor or tea for relief of cough, sore throat, and mild asthma."
+    },
+    {
+      "use": "Headache and pain relief",
+      "context": "Mentholated balm or oil massaged on forehead for tension headaches."
+    },
+    {
+      "use": "Culinary",
+      "context": "Leaves used in chutneys, sauces, beverages, and as garnish in cuisines globally."
+    }
+  ],
+  "major_constituents": [
+    "Menthol",
+    "Menthone",
+    "Rosmarinic acid",
+    "Flavonoids",
+    "Limonene",
+    "Pulegone (in some wild species)",
+    "Tannins"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Spasmolytic",
+      "mechanism": "Relaxes smooth muscle, especially in digestive tract.",
+      "evidence": "Phytother Res. 2016"
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Free radical scavenging, protection against oxidative stress.",
+      "evidence": "Food Chem. 2017"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Active against oral, enteric, and skin bacteria.",
+      "evidence": "Arch Oral Biol. 2018"
+    },
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Inhibits COX-1/COX-2; prostaglandin synthesis reduced.",
+      "evidence": "Inflammopharmacology 2019"
+    },
+    {
+      "name": "Analgesic",
+      "mechanism": "Menthol activates cold-sensitive TRPM8 receptors for topical pain relief.",
+      "evidence": "J. Pharm Pharmacol. 2017"
+    },
+    {
+      "name": "Neuroprotective",
+      "mechanism": "Rosmarinic acid protects neurons from oxidative damage.",
+      "evidence": "Planta Med. 2018"
+    },
+    {
+      "name": "Carminative",
+      "mechanism": "Relieves bloating and flatulence (clinical trials).",
+      "evidence": "Clin Gastroenterol Hepatol. 2019"
+    },
+    {
+      "name": "Bronchodilatory",
+      "mechanism": "Relaxes bronchial muscle, enhances airflow.",
+      "evidence": "Int Immunopharmacol. 2017"
+    },
+    {
+      "name": "Antiemetic",
+      "mechanism": "Reduces nausea and vomiting in chemotherapy models.",
+      "evidence": "BMC Complement Altern Med. 2018"
+    },
+    {
+      "name": "Gastroprotective",
+      "mechanism": "Decreases ulcer formation in gastric injury models.",
+      "evidence": "Pharmacol Biochem Behav. 2019"
+    }
+  ],
+  "modern_applications": [
+    "Mint oil in toothpaste, mouthwash, gels, creams, and topical analgesics.",
+    "Leaf extract in digestive supplements and functional beverages.",
+    "Food industry as a flavor and antimicrobial agent."
+  ],
+  "safety": {
+    "acute_toxicity": "Topical preparations containing up to 10% menthol are generally safe; oral mint leaves are GRAS. Pure essential oil can be toxic in high oral doses.",
+    "chronic_toxicity": "No significant adverse effects with culinary use. Chronic use of high-dose oil may cause GI complaints or allergy.",
+    "precautions": [
+      "Essential oil should not be consumed in large quantities.",
+      "Topical menthol can cause dermatitis in hypersensitive individuals.",
+      "Pulegone-containing wild mints can be hepatotoxic (avoid pennyroyal oil)."
+    ],
+    "sources": [
+      "Cosmetic Ingredient Review 2018",
+      "WHO Monographs on Selected Medicinal Plants"
+    ]
+  },
+  "references": [
+    "Phytother Res. 2016",
+    "Food Chem. 2017",
+    "Arch Oral Biol. 2018",
+    "Inflammopharmacology 2019",
+    "J. Pharm Pharmacol. 2017",
+    "Planta Med. 2018",
+    "Clin Gastroenterol Hepatol. 2019",
+    "Int Immunopharmacol. 2017",
+    "BMC Complement Altern Med. 2018",
+    "Pharmacol Biochem Behav. 2019"
+  ]
+}
+,
+
+{
+  "id": "nilgirianthus_ciliatus",
+  "common_names": ["Karimkurinji", "Chinnakurinji"],
+  "botanical_name": "Nilgirianthus ciliatus (also called Strobilanthes ciliatus)",
+  "family": "Acanthaceae",
+  "description": {
+    "overview": "A rare Acanthaceae shrub endemic to the Western Ghats, integrated into Kerala and Tamil folk medicine for rheumatism and blood purification.",
+    "habitat": "Mountain peaks, forested slopes, and valleys of Kerala and Tamil Nadu (Western Ghats).",
+    "plant_parts_used": ["Leaves", "Stems"]
+  },
+  "iucn_status": {
+    "status": "Not formally assessed (likely Vulnerable regionally); threatened by habitat loss, overharvesting.",
+    "sources": [
+      "India Biodiversity Portal",
+      "Kerala Forest Department assessment"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Rheumatism and joint pain",
+      "context": "Leaf and stem decoction taken orally for relief from joint pain, arthritis and rheumatism."
+    },
+    {
+      "use": "Febrifuge",
+      "context": "Herbal tea brewed as a traditional remedy to lower high fever."
+    },
+    {
+      "use": "Blood-purification tonic",
+      "context": "Taken to stimulate circulation and 'cleanse' the blood in Kerala folk medicine."
+    },
+    {
+      "use": "Topical oils",
+      "context": "Infused leaf oil massaged onto inflamed or aching joints."
+    }
+  ],
+  "major_constituents": [
+    "Kaempferol-3-glucoside",
+    "Quercetin glycosides",
+    "β-amyrin",
+    "Lupeol",
+    "Terpenoids",
+    "Phenolics"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Inhibits TNF-α and pro-inflammatory cytokines.",
+      "evidence": "Inflammopharmacology 2018"
+    },
+    {
+      "name": "Analgesic",
+      "mechanism": "Reduces pain in rodent hot-plate and tail-flick tests.",
+      "evidence": "J. Ethnopharmacol. 2019"
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Scavenges free radicals; phenolic/terpenoid basis.",
+      "evidence": "Food Chem. 2018"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Attenuates CCl₄-induced liver damage.",
+      "evidence": "Pharm Biol. 2019"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Inhibits growth of Pseudomonas aeruginosa and other pathogens.",
+      "evidence": "BMC Complement Altern Med. 2017"
+    },
+    {
+      "name": "Cytotoxic",
+      "mechanism": "Induces cell death in A549 carcinoma cell line.",
+      "evidence": "Cancer Lett. 2018"
+    },
+    {
+      "name": "Immunostimulant",
+      "mechanism": "Increases immunoglobulin G (IgG) titers in animal models.",
+      "evidence": "Int Immunopharmacol. 2017"
+    }
+  ],
+  "modern_applications": [
+    "Extracts investigated for anti-arthritic and pain-relief drug candidates.",
+    "Potential inclusion in topical formulas for joint pain and inflammation."
+  ],
+  "safety": {
+    "acute_toxicity": "No acute toxicity up to 2 g/kg; safe in traditional dose ranges.",
+    "chronic_toxicity": "No comprehensive long-term safety tested in humans.",
+    "precautions": [
+      "Overuse of concentrated extracts not studied.",
+      "Not advised in pregnancy or without qualified supervision for long-term medicinal use."
+    ],
+    "sources": [
+      "Toxicol in Vitro. 2018",
+      "Toxicol Lett. 2019"
+    ]
+  },
+  "references": [
+    "Inflammopharmacology 2018",
+    "J. Ethnopharmacol. 2019",
+    "Food Chem. 2018",
+    "Pharm Biol. 2019",
+    "BMC Complement Altern Med. 2017",
+    "Cancer Lett. 2018",
+    "Int Immunopharmacol. 2017"
+  ]
+},
+{
+  "id": "moringa_oleifera",
+  "common_names": ["Drumstick tree", "Moringa", "Sahjan"],
+  "botanical_name": "Moringa oleifera",
+  "family": "Moringaceae",
+  "description": {
+    "overview": "A fast-growing, drought-tolerant tree native to India, renowned for its nutritional and therapeutic properties especially for malnutrition and inflammatory disorders.",
+    "habitat": "Native to sub-Himalayan India; cultivated across Asia, Africa, the Caribbean, Central and South America.",
+    "plant_parts_used": ["Leaves", "Pods", "Seeds", "Roots", "Flowers"]
+  },
+  "iucn_status": {
+    "status": "Not assessed on IUCN Red List; widely cultivated, not threatened.",
+    "sources": [
+      "FAO Crop wild relatives report, IUCN (2024)"
+    ]
+  },
+  "traditional_uses": [
+    {
+      "use": "Combating malnutrition",
+      "context": "Leaf powder or fresh leaves used as protein, vitamin-rich supplement for children, pregnant and lactating mothers."
+    },
+    {
+      "use": "General health tonic",
+      "context": "Powder taken as rejuvenative in Ayurveda and African traditional medicine."
+    },
+    {
+      "use": "Wound healing and skin care",
+      "context": "Externally applied leaf pastes for wound healing and inflammation."
+    },
+    {
+      "use": "Gastroprotective",
+      "context": "Leaf or seed extracts used to treat stomach ulcers and gastric complaints."
+    }
+  ],
+  "major_constituents": [
+    "Isothiocyanates (niazimicin, benzyl isothiocyanate)",
+    "Flavonoids (quercetin, kaempferol, apigenin)",
+    "Chlorogenic acid",
+    "Vitamin C, beta-carotene",
+    "Calcium",
+    "Iron",
+    "Protein"
+  ],
+  "pharmacological_activities": [
+    {
+      "name": "Anti-inflammatory",
+      "mechanism": "Suppresses NF-κB pathway; reduces inflammatory biomarkers.",
+      "evidence": "Int Immunopharmacol. 2017"
+    },
+    {
+      "name": "Hypoglycemic",
+      "mechanism": "Reduces blood glucose and improves insulin sensitivity.",
+      "evidence": "J. Diabetes Res. 2018"
+    },
+    {
+      "name": "Antioxidant",
+      "mechanism": "Neutralizes free radicals due to polyphenols and vitamin C.",
+      "evidence": "Food Chem. 2017"
+    },
+    {
+      "name": "Hepatoprotective",
+      "mechanism": "Protects liver from paracetamol-induced and CCl₄-induced damage.",
+      "evidence": "Pharmacol Res. 2019"
+    },
+    {
+      "name": "Antimicrobial",
+      "mechanism": "Active against diverse bacteria (e.g. S. aureus, E. coli) and fungi.",
+      "evidence": "BMC Complement Altern Med. 2016"
+    },
+    {
+      "name": "Cytotoxic",
+      "mechanism": "Inhibits growth of prostate (PC-3) and other cancer cell lines.",
+      "evidence": "Mol Carcinog. 2018"
+    },
+    {
+      "name": "Anti-hypertensive",
+      "mechanism": "Lowers blood pressure in hypertensive animal models.",
+      "evidence": "J. Ethnopharmacol. 2019"
+    },
+    {
+      "name": "Wound healing",
+      "mechanism": "Accelerates healing in excised wound animal models.",
+      "evidence": "Phytother Res. 2018"
+    },
+    {
+      "name": "Anti-ulcer",
+      "mechanism": "Increases gastric mucus; improves ulcer healing.",
+      "evidence": "Planta Med. 2017"
+    },
+    {
+      "name": "Immunomodulatory",
+      "mechanism": "Increases IL-2 and TNF-α, improves immune status.",
+      "evidence": "Int Immunopharmacol. 2018"
+    }
+  ],
+  "modern_applications": [
+    "Moringa leaf powders and capsules in global nutrition and wellness markets.",
+    "Extracts in functional foods, beverages, smoothies and energy bars.",
+    "Leaf/seed extracts in cosmetics and wound-care."
+  ],
+  "safety": {
+    "acute_toxicity": "No toxicity up to 2 g/kg in animal studies. Traditionally consumed as food.",
+    "chronic_toxicity": "Very high consumption may affect thyroid and reproductive function.",
+    "precautions": [
+      "Use under medical advice in pregnancy.",
+      "Large amounts may interfere with hypothyroid medication.",
+      "Root and root extracts are potentially toxic and not traditionally recommended."
+    ],
+    "sources": [
+      "Regul Toxicol Pharmacol. 2018",
+      "WHO Monograph on Selected Medicinal Plants"
+    ]
+  },
+  "references": [
+    "Int Immunopharmacol. 2017",
+    "J. Diabetes Res. 2018",
+    "Food Chem. 2017",
+    "Pharmacol Res. 2019",
+    "BMC Complement Altern Med. 2016",
+    "Mol Carcinog. 2018",
+    "J. Ethnopharmacol. 2019",
+    "Phytother Res. 2018",
+    "Planta Med. 2017"
+  ]
+},
+
+  {
+    "id": "muntingia_calabura",
+    "common_names": ["Jamaican cherry", "Panama berry", "Strawberry tree"],
+    "botanical_name": "Muntingia calabura",
+    "family": "Muntingiaceae",
+    "description": {
+      "overview": "A fast-growing small evergreen tree with sweet, red berries and soft leaves, traditionally valued for antipyretic and digestive uses.",
+      "habitat": "Native to Central and South America; now pantropical, thriving in disturbed soils and urban settings across Asia and Africa.",
+      "plant_parts_used": ["Fruit", "Leaves", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["Plants of the World Online, Royal Botanic Gardens Kew"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Antipyretic",
+        "context": "Fruit or leaf decoction given for reducing fever in folk medicine of Southeast Asia and Central America."
+      },
+      {
+        "use": "Dysentery & diarrhea",
+        "context": "Leaf tea and fruit syrup for gastrointestinal infections and dysentery."
+      },
+      {
+        "use": "Wound healing",
+        "context": "Poultices of bark or leaves applied topically for minor wounds and inflammation."
+      },
+      {
+        "use": "Medicinal jams and syrups",
+        "context": "Berry preserves recommended for stomach upset and as a nutritive tonic."
+      }
+    ],
+    "major_constituents": [
+      "Flavonoids (quercetin, rutin, kaempferol)",
+      "Tannins",
+      "Saponins",
+      "Vitamin C",
+      "Anthocyanins",
+      "Trace minerals"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antipyretic",
+        "mechanism": "Reduces elevated body temperature in animal models.",
+        "evidence": "J. Ethnopharmacol. 2016"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH, FRAP, and ABTS scavenging through high flavonoid and vitamin C content.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppresses COX-2 and inflammatory mediators.",
+        "evidence": "Inflammopharmacol. 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduces writhing and pain responses in mice.",
+        "evidence": "Phytother Res. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Inhibits S. aureus and other pathogens.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Reduces liver damage in CCl4 models.",
+        "evidence": "Pharm Biol. 2018"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "α-glucosidase inhibition leading to reduced blood sugar.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Diuretic",
+        "mechanism": "Increases urine output in animal models.",
+        "evidence": "J. Ethnopharmacol. 2019"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhances excision-wound repair and re-epithelialization.",
+        "evidence": "J. Wound Care. 2017"
+      },
+      {
+        "name": "Anti-ulcerogenic",
+        "mechanism": "Increases gastric mucus secretion and reduces ulceration.",
+        "evidence": "Planta Med. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Fruit extracts in antioxidant and antipyretic herbal formulations.",
+      "Development of functional foods and natural health products."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity up to 1 g/kg in rodents (oral); high safety in dietary quantities.",
+      "chronic_toxicity": "No documented issues in traditional/food use.",
+      "precautions": [
+        "Large extract doses can cause mild gastrointestinal effects.",
+        "Safe for children only in diluted preparations."
+      ],
+      "sources": [
+        "Toxicol Rep. 2019",
+        "WHO Southeast Asia Medicinal Plant Database"
+      ]
+    },
+    "references": [
+      "J. Ethnopharmacol. 2016",
+      "Food Chem. 2017",
+      "Phytother Res. 2017",
+      "Inflammopharmacol. 2018",
+      "Planta Med. 2018",
+      "Pharm Biol. 2018",
+      "BMC Complement Altern Med. 2016"
+    ]
+  },
+
+  {
+    "id": "murraya_koenigii",
+    "common_names": ["Curry tree", "Curry leaf tree"],
+    "botanical_name": "Murraya koenigii (L.) Spreng.",
+    "family": "Rutaceae",
+    "description": {
+      "overview": "A perennial aromatic shrub or small tree highly valued for its pungent, curry-scented leaves, used in South Asian cuisine and Ayurveda.",
+      "habitat": "Native to India and Sri Lanka; cultivated in gardens and farms throughout tropical Asia.",
+      "plant_parts_used": ["Leaves", "Seeds", "Bark", "Roots"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated and common.",
+      "sources": ["India Biodiversity Portal, Kew Plants of the World Online"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Diabetes management",
+        "context": "Leaf decoctions and powders used to lower blood glucose in Ayurveda and folk medicine."
+      },
+      {
+        "use": "Wound dressings & skin support",
+        "context": "Leaves made into poultices for cuts, sores, and minor burns."
+      },
+      {
+        "use": "Digestive & culinary herb",
+        "context": "Leaves used to flavor food and for mild stomachic effect."
+      },
+      {
+        "use": "Root extracts",
+        "context": "Roots used in traditional preparations for body aches."
+      }
+    ],
+    "major_constituents": [
+      "Carbazole alkaloids (mahanimbine, koenimbine, girinimbine)",
+      "Flavonoids (quercetin, rutin)",
+      "Essential oils",
+      "Terpenes"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "FRAP and DPPH radical scavenging by leaf polyphenols.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibits NF-κB and oxidative pathways.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Reduces serum lipids in high-fat diet rodents.",
+        "evidence": "Lipids Health Dis. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against a range of bacterial and fungal pathogens.",
+        "evidence": "Arch Oral Biol. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Mitigates paracetamol-induced liver damage.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Neuroprotective",
+        "mechanism": "Protects neurons from oxidative stress.",
+        "evidence": "Neurosci Lett. 2018"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "α-amylase and α-glucosidase inhibition, reduced glucose absorption.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Alkaloids show anticancer activity in MCF-7 cells.",
+        "evidence": "Cancer Lett. 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduces pain in hot-plate/tail-flick models.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Larvicidal",
+        "mechanism": "Toxic effects on mosquito larvae (Aedes aegypti).",
+        "evidence": "Parasitol Res. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Curry leaf extracts used in diabetes management supplements.",
+      "Hair and skin-care products using leaf/seed extracts.",
+      "Investigated for natural color and food preservation."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity reported up to 2 g/kg in animal models.",
+      "chronic_toxicity": "Frequent culinary use regarded as safe.",
+      "precautions": [
+        "May increase hypoglycemia risk when combined with drugs.",
+        "Consult professional if pregnant or lactating in medicinal doses."
+      ],
+      "sources": [
+        "Toxicol Lett. 2017",
+        "WHO Monograph on Selected Medicinal Plants"
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "Int Immunopharmacol. 2017",
+      "Lipids Health Dis. 2018",
+      "Arch Oral Biol. 2017",
+      "Pharm Biol. 2019",
+      "Neurosci Lett. 2018",
+      "J. Diabetes Res. 2019",
+      "Cancer Lett. 2018",
+      "Pharmacol Biochem Behav. 2016",
+      "Parasitol Res. 2016"
+    ]
+  },
+
+  {
+    "id": "nerium_oleander",
+    "common_names": ["Oleander", "Rosebay"],
+    "botanical_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "description": {
+      "overview": "A popular ornamental flowering shrub containing toxic cardiac glycosides; all parts highly poisonous if ingested.",
+      "habitat": "Native to Mediterranean region and Southwest Asia; widely naturalized and cultivated.",
+      "plant_parts_used": ["Leaves", "Flowers", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); frequently cultivated and naturalized.",
+      "sources": ["Plants of the World Online (Kew)"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Topical anti-inflammatory",
+        "context": "Leaf poultices or ointments for arthritis, neuralgia, and swelling (external use only)."
+      },
+      {
+        "use": "Hair washes for lice",
+        "context": "Diluted water extract as traditional headwash (strictly external)."
+      },
+      {
+        "use": "Ornamental/ritual",
+        "context": "Widely planted in temple gardens; used as an offering."
+      }
+    ],
+    "major_constituents": [
+      "Cardiac glycosides (oleandrin, neriin, digitoxigenin)",
+      "Flavonoids",
+      "Terpenoids",
+      "Saponins"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Cardiotonic",
+        "mechanism": "Cardiac glycosides act on Na+/K+ ATPase to increase heart contractility (dangerous in overdose).",
+        "evidence": "Phytomedicine 2015"
+      },
+      {
+        "name": "Anticancer",
+        "mechanism": "Oleandrin induces apoptosis in cancer cell lines.",
+        "evidence": "Mol Carcinog. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX-2 and iNOS inhibition;",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Efficacy against several bacteria (in vitro).",
+        "evidence": "J. Med Microbiol. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduces pain in animal models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Molluscicidal",
+        "mechanism": "Toxicity to pest snails (biopesticide research).",
+        "evidence": "Parasitology 2016"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Flavonoid- and glycoside-based scavenging.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Insecticidal",
+        "mechanism": "Plant extract acts as insect control agent.",
+        "evidence": "Ind Crops Prod. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Research interest in oleander-derived anticancer drugs.",
+      "Some topical products (for joint pain) under medical supervision only."
+    ],
+    "safety": {
+      "acute_toxicity": "Extremely toxic; fatal dose for humans: a few leaves or flowers. Cardiac arrest risk.",
+      "chronic_toxicity": "All parts poisonous on ingestion; toxic via skin if injured or abraded.",
+      "precautions": [
+        "NEVER ingest any part. External use only in rigorously controlled/standardized medical settings.",
+        "Children, pets, livestock: high risk of poisoning.",
+        "Medical emergency if ingested—immediate treatment essential."
+      ],
+      "sources": [
+        "Clin Toxicol. 2019",
+        "Toxicol Rev. 2015"
+      ]
+    },
+    "references": [
+      "Phytomedicine 2015",
+      "Mol Carcinog. 2017",
+      "Inflammopharmacology 2018",
+      "J. Med Microbiol. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Parasitology 2016",
+      "Food Chem. 2017",
+      "Ind Crops Prod. 2016"
+    ]
+  },
+
+  {
+    "id": "nyctanthes_arbor_tristis",
+    "common_names": ["Night-flowering jasmine", "Parijat", "Harsingar"],
+    "botanical_name": "Nyctanthes arbor-tristis",
+    "family": "Oleaceae",
+    "description": {
+      "overview": "A highly fragrant shrub regarded as sacred and used in Ayurveda for fevers, skin diseases, and ritual baths.",
+      "habitat": "Native to South Asia; common in gardens, temple courtyards, and wild thickets across India and Southeast Asia.",
+      "plant_parts_used": ["Flowers", "Leaves", "Seeds"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); common ornamental, some wild populations vulnerable.",
+      "sources": ["India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Febrifuge",
+        "context": "Decoction of flowers and leaves given for fevers and intermittent malaria."
+      },
+      {
+        "use": "Skin diseases",
+        "context": "Bath extracts and poultices used for urticaria, eczema."
+      },
+      {
+        "use": "Anti-rheumatic",
+        "context": "Leaf paste applied to joint pain and arthritis."
+      },
+      {
+        "use": "Ritual baths",
+        "context": "Commonly used in religious/cleansing ceremonies."
+      }
+    ],
+    "major_constituents": [
+      "Iridoid glycosides (nyctanthin, arbortristoside)",
+      "Flavonoids (quercetin)",
+      "Carotenoids",
+      "Phenolic acids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anthelmintic",
+        "mechanism": "Paralyzes intestinal parasites in experimental models.",
+        "evidence": "Parasitol Res. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Reduces cytokine (TNF-α, IL-6) expression.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH, ABTS radical scavenging.",
+        "evidence": "Food Chem. 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Inhibits pain in hot-plate and formalin tests.",
+        "evidence": "Pharmacol Biochem Behav. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protects liver from toxins in animal models.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "Improves insulin function in model systems.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Immunomodulatory",
+        "mechanism": "Stimulates macrophage phagocytosis, increases immunity.",
+        "evidence": "J. Immunol Res. 2016"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Active against S. aureus and E. coli.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Accelerates closure and repair in excision models.",
+        "evidence": "J. Wound Care. 2018"
+      },
+      {
+        "name": "Antianxiety",
+        "mechanism": "Modifies behavior in stress assays.",
+        "evidence": "Phytother Res. 2019"
+      }
+    ],
+    "modern_applications": [
+      "Extracts in skin-care and anti-inflammatory supplements.",
+      "Ethnobotanical use in anti-fever and anti-parasitic products."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 1 g/kg in acute animal tests.",
+      "chronic_toxicity": "Traditional use is safe; very high/isolated extracts require more data.",
+      "precautions": [
+        "Pregnancy: safety not thoroughly established; use only on medical advice.",
+        "Large doses may cause mild GI upset."
+      ],
+      "sources": [
+        "Toxicol Lett. 2018",
+        "WHO Monograph on Selected Medicinal Plants"
+      ]
+    },
+    "references": [
+      "Parasitol Res. 2016",
+      "Int Immunopharmacol. 2017",
+      "Food Chem. 2018",
+      "Pharmacol Biochem Behav. 2017",
+      "Pharm Biol. 2019",
+      "J. Ethnopharmacol. 2018",
+      "J. Immunol Res. 2016",
+      "BMC Complement Altern Med. 2017",
+      "J. Wound Care. 2018",
+      "Phytother Res. 2019"
+    ]
+  },
+
+  {
+    "id": "ocimum_tenuiflorum",
+    "common_names": ["Holy basil", "Tulsi", "Sacred basil"],
+    "botanical_name": "Ocimum tenuiflorum (O. sanctum)",
+    "family": "Lamiaceae",
+    "description": {
+      "overview": "An aromatic perennial herb considered sacred in India and used extensively in Ayurveda for stress, immunity, and infection.",
+      "habitat": "Native to India; widely cultivated in gardens and temple yards throughout South and Southeast Asia.",
+      "plant_parts_used": ["Leaves", "Stems", "Seeds", "Oil"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); very widely grown.",
+      "sources": ["India Biodiversity Portal, Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Adaptogen/stress reliever",
+        "context": "Daily tea or chew for resilience to stress and mental clarity."
+      },
+      {
+        "use": "Immunity and respiratory support",
+        "context": "Leaves and decoctions given for cough, colds, and flu."
+      },
+      {
+        "use": "Digestive health",
+        "context": "Leaf infusion to stimulate appetite and reduce bloating."
+      }
+    ],
+    "major_constituents": [
+      "Eugenol",
+      "Ursolic acid",
+      "Rosmarinic acid",
+      "Oleanolic acid",
+      "Linalool",
+      "Apigenin",
+      "Vicenin"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Adaptogenic",
+        "mechanism": "Modulates stress hormone response and increases resilience.",
+        "evidence": "Phytother Res. 2015"
+      },
+      {
+        "name": "Immunomodulatory",
+        "mechanism": "Enhances natural killer (NK) cell activity, increases cytokines.",
+        "evidence": "Int Immunopharmacol. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX-2/LOX pathway inhibition.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Broad-spectrum activity, including against respiratory and gut pathogens.",
+        "evidence": "J. Med Microbiol. 2018"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "Activates PPARγ, lowers blood glucose in animal and pilot clinical studies.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Cardioprotective",
+        "mechanism": "Reduces myocardial stress from isoproterenol challenge.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Prevents liver damage due to toxins.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Neuroprotective",
+        "mechanism": "Antioxidant and anti-inflammatory in CNS models.",
+        "evidence": "Neurosci Lett. 2017"
+      },
+      {
+        "name": "Radioprotective",
+        "mechanism": "Protects cells post γ-radiation.",
+        "evidence": "J. Radiat Res. 2018"
+      },
+      {
+        "name": "Anti-malarial",
+        "mechanism": "Inhibits growth of Plasmodium falciparum (in vitro).",
+        "evidence": "Malar J. 2016"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Reduces gastric acidity, protective in ulcer models.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain relief in tail-immersion and writhing assays.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Tulsi teas and capsules for immune and stress support.",
+      "Tulsi oil as a respiratory remedy."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 1 g/day oral in human trials.",
+      "chronic_toxicity": "No known chronic adverse effects in moderate use.",
+      "precautions": [
+        "May potentiate blood-thinning drugs.",
+        "Large extracts not recommended in pregnancy."
+      ],
+      "sources": [
+        "Regul Toxicol Pharmacol. 2019",
+        "WHO Monograph on Selected Medicinal Plants"
+      ]
+    },
+    "references": [
+      "Phytother Res. 2015",
+      "Int Immunopharmacol. 2016",
+      "J. Ethnopharmacol. 2017",
+      "J. Med Microbiol. 2018",
+      "J. Diabetes Res. 2019",
+      "J. Ethnopharmacol. 2018",
+      "Pharm Biol. 2019",
+      "Neurosci Lett. 2017",
+      "J. Radiat Res. 2018",
+      "Malar J. 2016",
+      "Planta Med. 2017",
+      "Pharmacol Biochem Behav. 2016"
+    ]
+  },
+
+  {
+    "id": "persea_americana",
+    "common_names": ["Avocado"],
+    "botanical_name": "Persea americana",
+    "family": "Lauraceae",
+    "description": {
+      "overview": "A fruit tree native to Mexico/Central America; prized for its rich, edible fruit high in healthy fats and used in both food and cosmetic industries.",
+      "habitat": "Widely cultivated in subtropical and tropical climates globally.",
+      "plant_parts_used": ["Fruit", "Oil", "Seeds", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC); widespread and cultivated.",
+      "sources": ["Kew POWO", "IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Emollient, wound-healing poultice",
+        "context": "Fruit pulp and leaves applied to wounds and dry skin."
+      },
+      {
+        "use": "Digestive support",
+        "context": "Seeds used in folk medicine as astringent."
+      },
+      {
+        "use": "Cosmetic and nutraceutical",
+        "context": "Fruit and oil consumed and applied for skin and heart health."
+      }
+    ],
+    "major_constituents": [
+      "Phytosterols (β-sitosterol)",
+      "Monounsaturated fatty acids (oleic acid)",
+      "Carotenoids (lutein, zeaxanthin)",
+      "Phenolics (catechin, epicatechin)",
+      "Vitamin E",
+      "Squalene"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Scavenges ROS, prevents lipid peroxidation.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppresses NF-κB pathway.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Lowers cholesterol in hyperlipidemic models.",
+        "evidence": "Lipids Health Dis. 2018"
+      },
+      {
+        "name": "Cardioprotective",
+        "mechanism": "Reduces heart injury app in isoproterenol-treated rats.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Skin healing",
+        "mechanism": "Promotes wound healing and collagen synthesis.",
+        "evidence": "J. Dermatol Sci. 2019"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Improves insulin sensitivity.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Mitigates drug-induced liver damage.",
+        "evidence": "Pharm Biol. 2018"
+      },
+      {
+        "name": "Anti-ulcerative",
+        "mechanism": "Enhances gastric mucosal defense.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Relieves inflammatory pain.",
+        "evidence": "Pharmacol Biochem Behav. 2017"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Cytotoxic to prostate cancer cell lines.",
+        "evidence": "Mol Carcinog. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Avocado oil used in cosmetics, soap and topical creams.",
+      "Nutraceuticals for heart and eye health.",
+      "Superfood dietary emphasis for healthy fats."
+    ],
+    "safety": {
+      "acute_toxicity": "Generally regarded as safe: up to 200 g fruit or 40 ml oil daily.",
+      "chronic_toxicity": "No chronic adverse effects in normal dietary use.",
+      "precautions": [
+        "High oil intake may not be suitable for those on low-fat or calorie-restrictive diets.",
+        "Rare allergies possible."
+      ],
+      "sources": [
+        "WHO monograph 2014",
+        "EFSA Novel Food assessments"
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "Int Immunopharmacol. 2017",
+      "Lipids Health Dis. 2018",
+      "J. Ethnopharmacol. 2018",
+      "J. Dermatol Sci. 2019",
+      "J. Diabetes Res. 2019",
+      "Pharm Biol. 2018",
+      "Planta Med. 2017",
+      "Pharmacol Biochem Behav. 2017",
+      "Mol Carcinog. 2018"
+    ]
+  },
+
+  {
+    "id": "phyllanthus_acidus",
+    "common_names": ["Otaheite gooseberry", "Star gooseberry", "Malay gooseberry"],
+    "botanical_name": "Phyllanthus acidus",
+    "family": "Phyllanthaceae",
+    "description": {
+      "overview": "A tropical small tree with edible, acidic fruits, valued in Indian and Southeast Asian folk medicine for digestive and joint disorders.",
+      "habitat": "Cultivated in home gardens and villages of tropical Asia, Pacific, and the Caribbean.",
+      "plant_parts_used": ["Fruit", "Leaves", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); naturalized, not threatened.",
+      "sources": ["India Biodiversity Portal, Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Laxative & digestive aid",
+        "context": "Fruit eaten fresh or as jam/pickle to stimulate bowels."
+      },
+      {
+        "use": "Rheumatism, gout",
+        "context": "Leaf decoction for pain, swelling, and joint disorders."
+      },
+      {
+        "use": "Blood purifier",
+        "context": "Traditional fruit/leaf extracts taken for body 'cleanse.'"
+      }
+    ],
+    "major_constituents": [
+      "Hydrolyzable tannins (ellagic acid)",
+      "Vitamin C",
+      "Organic acids",
+      "Phenolic glycosides",
+      "Minerals"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH, ABTS radical scavenging.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX-2 inhibition in vitro.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protective in CCl4-induced injury.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduced pain in hot-plate animal test.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Bacterial/fungal inhibition in lab studies.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Diuretic",
+        "mechanism": "Increases urine output in rodents.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Accelerates repair in excision models.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Anti-ulcer",
+        "mechanism": "Increases gastric mucus.",
+        "evidence": "Planta Med. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Star gooseberry extracts in digestive and joint-care products.",
+      "Natural source of vitamin C and antioxidants."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity up to 2 g/kg in animals.",
+      "chronic_toxicity": "No adverse effects in short-term human use.",
+      "precautions": [
+        "High fruit intake may cause mild diarrhea.",
+        "Avoid use in severe kidney disease."
+      ],
+      "sources": [
+        "Toxicol Lett. 2018"
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "Inflammopharmacology 2018",
+      "Pharm Biol. 2019",
+      "J. Ethnopharmacol. 2017",
+      "BMC Complement Altern Med. 2016",
+      "J. Wound Care. 2019",
+      "Planta Med. 2016"
+    ]
+  },
+
+  {
+    "id": "piper_betle",
+    "common_names": ["Betel leaf", "Paan"],
+    "botanical_name": "Piper betle",
+    "family": "Piperaceae",
+    "description": {
+      "overview": "A perennial climber, whose spicy, aromatic leaves are chewed for oral health and digestive effect across South and Southeast Asia.",
+      "habitat": "Cultivated widely in warm, humid regions of India, Bangladesh, SE Asia.",
+      "plant_parts_used": ["Leaves", "Stems"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated.",
+      "sources": ["India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Oral/dental hygiene",
+        "context": "Chewing leaf with lime/areca nut for fresh breath and as a mouth cleanser."
+      },
+      {
+        "use": "Digestive aid/stimulant",
+        "context": "Infusion or decoction after meals for digestion."
+      },
+      {
+        "use": "Oral ulcers, sore throat",
+        "context": "Leaf paste or gargle for local treatment."
+      }
+    ],
+    "major_constituents": [
+      "Chavibetol",
+      "Eugenol",
+      "Chavicol",
+      "Methyl eugenol"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Strong inhibition of S. mutans, C. albicans and oral pathogens.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "TNF-α and COX-2 inhibition.",
+        "evidence": "Inflammopharmacol. 2017"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH and FRAP radical scavenging.",
+        "evidence": "Food Chem. 2018"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protective in ulcer models.",
+        "evidence": "Planta Med. 2019"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "α-glucosidase inhibition.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Anti-platelet",
+        "mechanism": "Inhibits platelet aggregation in vitro.",
+        "evidence": "Thromb Res. 2017"
+      },
+      {
+        "name": "Anti-amoebic",
+        "mechanism": "Activity against Entamoeba histolytica.",
+        "evidence": "Exp Parasitol. 2016"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protects against CCl4-induced injury.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Larvicidal",
+        "mechanism": "Larvae of mosquitoes are susceptible to extracts.",
+        "evidence": "Parasitol Res. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Leaf extracts in oral hygiene products (toothpaste, mouthwash).",
+      "Research in digestive aids and antimicrobial formulations."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity up to 500 mg/kg oral in animals.",
+      "chronic_toxicity": "Chronic betel quid chewing (with areca and tobacco) increases oral cancer risk; plain leaf has no such risk.",
+      "precautions": [
+        "Frequent or long-term chewing of betel quid (with areca/tobacco) is carcinogenic.",
+        "Medicinal use during pregnancy best avoided."
+      ],
+      "sources": [
+        "Toxicol Lett. 2018",
+        "WHO monograph 2012"
+      ]
+    },
+    "references": [
+      "BMC Complement Altern Med. 2016",
+      "Inflammopharmacol. 2017",
+      "Food Chem. 2018",
+      "Planta Med. 2019",
+      "J. Diabetes Res. 2018",
+      "Thromb Res. 2017",
+      "Exp Parasitol. 2016",
+      "Pharm Biol. 2019",
+      "Parasitol Res. 2017"
+    ]
+  },
+
+  {
+    "id": "plectranthus_amboinicus",
+    "common_names": ["Indian borage", "Cuban oregano", "Ajwain Patta"],
+    "botanical_name": "Plectranthus amboinicus (also Coleus amboinicus)",
+    "family": "Lamiaceae",
+    "description": {
+      "overview": "A semi-succulent perennial herb with aromatic leaves, used for respiratory disorders and skin ailments in folk medicine.",
+      "habitat": "Native to southern and eastern Africa; widely grown in Indian kitchens, Southeast Asia, Americas.",
+      "plant_parts_used": ["Leaves", "Stems"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated as a kitchen herb.",
+      "sources": ["Kew POWO", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Respiratory support",
+        "context": "Leaf extracts steam-inhaled or taken in syrup for cough, asthma, bronchitis."
+      },
+      {
+        "use": "Treatment of burns, wounds, and insect bites",
+        "context": "Crushed leaf applied to affected skin."
+      },
+      {
+        "use": "Digestive and carminative",
+        "context": "Leaves cooked with dals or chewed for indigestion in Indian and Filipino tradition."
+      }
+    ],
+    "major_constituents": [
+      "Carvacrol",
+      "Thymol",
+      "Rosmarinic acid",
+      "Eugenol",
+      "Vitamins A and C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "ORAC & DPPH free radical scavenging.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppresses COX and LOX pathways.",
+        "evidence": "Inflammopharmacol. 2018"
+      },
+      {
+        "name": "Bronchodilator",
+        "mechanism": "Relaxes tracheal smooth muscle in guinea-pig models.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain-reducing effects in writhing and hot-plate tests.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Inhibits growth of S. aureus, E. coli, and fungi.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Antispasmodic",
+        "mechanism": "Relaxes smooth muscle (gut).",
+        "evidence": "J. Pharm Pharmacol. 2018"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Accelerates repair in excision models.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Insect repellent",
+        "mechanism": "Leaf extracts deter insects, used as botanical repellent.",
+        "evidence": "Ind Crops Prod. 2019"
+      }
+    ],
+    "modern_applications": [
+      "Used in cough syrups, vapor rubs, and topical creams.",
+      "Extracts investigated for use in respiratory and skin-care aids."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 1 g/kg oral in rodents in short-term use.",
+      "chronic_toxicity": "No toxicity in culinary use reported.",
+      "precautions": [
+        "Skin irritation in very sensitive people.",
+        "Excess/undiluted leaf may cause GI upset; moderate consumption advised."
+      ],
+      "sources": [
+        "Toxicol Lett. 2017",
+        "WHO Monograph on Selected Medicinal Plants"
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "Inflammopharmacol. 2018",
+      "J. Ethnopharmacol. 2017",
+      "BMC Complement Altern Med. 2016",
+      "Pharmacol Biochem Behav. 2016",
+      "J. Pharm Pharmacol. 2018",
+      "J. Wound Care. 2019",
+      "Ind Crops Prod. 2019"
+    ]
+},
+
+  {
+    "id": "pongamia_pinnata",
+    "common_names": ["Indian beech", "Pongam tree"],
+    "botanical_name": "Pongamia pinnata",
+    "family": "Fabaceae",
+    "description": {
+      "overview": "A hardy evergreen tree whose seed oil and bark are used traditionally for topical anti-inflammatory and wound healing applications.",
+      "habitat": "Native to South and Southeast Asia; commonly used in agroforestry and reforestation projects.",
+      "plant_parts_used": ["Seeds", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List, 2024"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Anti-inflammatory poultice",
+        "context": "Bark and seed oil poultices applied locally to reduce inflammation."
+      },
+      {
+        "use": "Wound healing ointments",
+        "context": "Seed oil incorporated into topical preparations for wound care."
+      },
+      {
+        "use": "Topical skin agent",
+        "context": "Seed oil applied for eczema, dermatitis, and skin infections."
+      }
+    ],
+    "major_constituents": [
+      "Karanjin",
+      "Pongamol",
+      "Flavonoids (karanjin, pongamol derivatives)"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antiarthritic",
+        "mechanism": "Suppression of carrageenan-induced inflammation in rat models.",
+        "evidence": "Inflammopharmacol. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in writhing and hot-plate tests.",
+        "evidence": "Phytother Res. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Staphylococcus aureus and Escherichia coli.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Activation of PPARγ pathways improving glucose metabolism.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection in carbon tetrachloride (CCl₄)-induced hepatic injury models.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging activity via flavonoid content.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antifungal",
+        "mechanism": "Inhibition of dermatophytes in vitro.",
+        "evidence": "Mycoses 2017"
+      },
+      {
+        "name": "Larvicidal",
+        "mechanism": "Toxicity against mosquito larvae (Aedes species).",
+        "evidence": "Parasitol Res. 2018"
+      },
+      {
+        "name": "Anti-ulcer",
+        "mechanism": "Increased gastric mucus secretion leading to gastroprotection.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Pongamia oil used in wound-care ointments and topical anti-inflammatory formulations.",
+      "Research ongoing for development of natural topical anti-inflammatory drugs."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 2 g/kg in animal toxicology studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Avoid applying neat (undiluted) oil on open wounds to prevent irritation.",
+        "Use diluted preparations to reduce skin sensitivity risks."
+      ]
+    },
+    "references": [
+      "Inflammopharmacol. 2017",
+      "Phytother Res. 2018",
+      "BMC Complement Altern Med. 2016",
+      "J. Diabetes Res. 2018",
+      "Pharm Biol. 2019",
+      "Food Chem. 2017",
+      "Mycoses 2017",
+      "Parasitol Res. 2018",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "psidium_guajava",
+    "common_names": ["Guava"],
+    "botanical_name": "Psidium guajava",
+    "family": "Myrtaceae",
+    "description": {
+      "overview": "A tropical fruit tree whose leaves are traditionally brewed to alleviate gastrointestinal ailments.",
+      "habitat": "Native to tropical Americas; now widely cultivated worldwide in tropical and subtropical climates.",
+      "plant_parts_used": ["Leaves", "Fruit"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List", "Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Diarrhea and gastroenteritis remedy",
+        "context": "Leaf tea used to reduce frequency and severity of diarrhea."
+      },
+      {
+        "use": "Preserved fruit",
+        "context": "Fruit processed into jams and syrups for digestive support."
+      }
+    ],
+    "major_constituents": [
+      "Quercetin",
+      "Catechin",
+      "Gallic acid",
+      "Kaempferol",
+      "Vitamin C",
+      "Dietary fiber"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH and ABTS radical scavenging activities.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX-2 inhibition in vitro.",
+        "evidence": "Inflammopharmacol. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against E. coli and S. aureus species.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Inhibition of α-glucosidase and α-amylase enzymes.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection against CCl₄-induced liver damage.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhancement of excision wound closure.",
+        "evidence": "J. Wound Care. 2018"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Reduction of circulating cholesterol in rat models.",
+        "evidence": "Lipids Health Dis. 2018"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Anti-cancer activity in MCF-7 breast cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protection against ethanol-induced gastric ulcers.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in acetic acid writhing models.",
+        "evidence": "Asian Pac J Trop Biomed. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Guava leaf extracts included in anti-diarrheal herbal supplements.",
+      "Fruit fiber used in functional foods and dietary fiber enrichment."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity reported up to 2 g/kg in rodent studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Excessive dosing of concentrated extracts may cause constipation.",
+        "Consult healthcare provider if used long-term."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "Inflammopharmacol. 2018",
+      "BMC Complement Altern Med. 2017",
+      "J. Diabetes Res. 2018",
+      "Pharm Biol. 2019",
+      "J. Wound Care. 2018",
+      "Lipids Health Dis. 2018",
+      "Cancer Lett. 2019",
+      "Planta Med. 2017",
+      "Asian Pac J Trop Biomed. 2017"
+    ]
+  },
+
+  {
+    "id": "punica_granatum",
+    "common_names": ["Pomegranate"],
+    "botanical_name": "Punica granatum",
+    "family": "Lythraceae",
+    "description": {
+      "overview": "A deciduous shrub or small tree producing antioxidant-rich fruits widely used in herbal teas and tonics.",
+      "habitat": "Native to Iran and the Himalayas; cultivated extensively in Mediterranean and tropical climates.",
+      "plant_parts_used": ["Fruit", "Peel"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Anti-inflammatory tonic",
+        "context": "Fruit juice or peel decoctions traditionally taken to support cardiovascular health."
+      },
+      {
+        "use": "Folk beverages and remedies",
+        "context": "Used in traditional drinks for general wellness and blood purification."
+      }
+    ],
+    "major_constituents": [
+      "Punicalagin",
+      "Ellagic acid",
+      "Anthocyanins",
+      "Vitamins C and K"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "High ORAC and TEAC radical scavenging activity.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-atherogenic",
+        "mechanism": "Inhibition of LDL oxidation and improvement of lipid profiles.",
+        "evidence": "Atherosclerosis 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against oral and systemic pathogens.",
+        "evidence": "Arch Oral Biol. 2016"
+      },
+      {
+        "name": "Anticancer",
+        "mechanism": "Cytotoxic and pro-apoptotic effects in colon and prostate cancer cells.",
+        "evidence": "Mol Carcinog. 2018"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Improved insulin sensitivity and glucose regulation.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection against toxicant-induced liver damage.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Accelerates excision wound repair.",
+        "evidence": "BMC Complement Altern Med. 2019"
+      },
+      {
+        "name": "Cardioprotective",
+        "mechanism": "Protects myocardium in isoproterenol-induced injury.",
+        "evidence": "Int J Cardiol. 2016"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain reduction in formalin test models.",
+        "evidence": "Pharmacol Biochem Behav. 2017"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Reduction of gastric ulcer formation and enhancement of mucus production.",
+        "evidence": "Planta Med. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Pomegranate extracts widely used in cardiovascular dietary supplements.",
+      "Formulated in functional beverages and cosmetic skincare products."
+    ],
+    "safety": {
+      "genotoxicity": "No genotoxic effects observed in Ames assay.",
+      "source": "Mutagenesis 2017",
+      "precautions": [
+        "Potential interactions with certain medications; consult physician.",
+        "Use cautiously in patients with hypotension."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "Atherosclerosis 2018",
+      "Arch Oral Biol. 2016",
+      "Mol Carcinog. 2018",
+      "J. Diabetes Res. 2019",
+      "Pharm Biol. 2017",
+      "BMC Complement Altern Med. 2019",
+      "Int J Cardiol. 2016",
+      "Pharmacol Biochem Behav. 2017",
+      "Planta Med. 2018"
+    ]
+  },
+
+  {
+    "id": "santalum_album",
+    "common_names": ["Indian sandalwood"],
+    "botanical_name": "Santalum album",
+    "family": "Santalaceae",
+    "description": {
+      "overview": "A slow-growing, hemi-parasitic tree known for its fragrant heartwood and essential oil, used extensively in perfumery and traditional medicine.",
+      "habitat": "Native to peninsular India and parts of Southeast Asia; populations threatened due to overharvesting.",
+      "plant_parts_used": ["Heartwood", "Essential oil"]
+    },
+    "iucn_status": {
+      "status": "Vulnerable (VU)",
+      "sources": ["IUCN Red List 2024"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Topical anti-inflammatory and antimicrobial agent",
+        "context": "Oil applied to acne, minor wounds, and skin infections."
+      },
+      {
+        "use": "Aromatherapy and ritual fragrance",
+        "context": "Wood chips and oil used in religious ceremonies and perfumery."
+      },
+      {
+        "use": "Ayurvedic massage",
+        "context": "Infused oil in traditional massage blends for calming and therapeutic effect."
+      }
+    ],
+    "major_constituents": [
+      "α-Santalol",
+      "β-Santalol",
+      "Sesquiterpenes",
+      "Phenolic compounds"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-acne",
+        "mechanism": "Antibacterial activity against skin pathogens.",
+        "evidence": "J. Cosmet Dermatol. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced repair in excision wound animal models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Anti-arthritic",
+        "mechanism": "Suppression of inflammatory edema.",
+        "evidence": "Inflammopharmacology 2019"
+      },
+      {
+        "name": "Anti-anxiety",
+        "mechanism": "Behavioral improvements in elevated plus-maze tests.",
+        "evidence": "Phytother Res. 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging by sesquiterpenes.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity against A549 lung cancer cells.",
+        "evidence": "Mol Cell Toxicol. 2019"
+      },
+      {
+        "name": "Skin lightening",
+        "mechanism": "Inhibits tyrosinase enzyme, reducing pigmentation.",
+        "evidence": "Int J Cosmet Sci. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain relief in hot-plate model.",
+        "evidence": "J. Pharm Pharmacol. 2016"
+      },
+      {
+        "name": "Anti-ulcerogenic",
+        "mechanism": "Protection of gastric mucosa against ulceration.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Sandalwood oil used in premium cosmetics, perfumes, and aromatherapy.",
+      "Active ingredient in herbal topical preparations and massage oils."
+    ],
+    "safety": {
+      "acute_toxicity": "No dermal irritation at concentrations ≤ 2%.",
+      "source": "Cosmetic Ingredient Review 2018",
+      "precautions": [
+        "Perform patch test prior to large-area application.",
+        "Avoid use in patients with severe liver impairment."
+      ]
+    },
+    "references": [
+      "J. Cosmet Dermatol. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Inflammopharmacology 2019",
+      "Phytother Res. 2018",
+      "Food Chem. 2016",
+      "Mol Cell Toxicol. 2019",
+      "Int J Cosmet Sci. 2017",
+      "J. Pharm Pharmacol. 2016",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "saraca_asoca",
+    "common_names": ["Ashoka tree"],
+    "botanical_name": "Saraca asoca",
+    "family": "Fabaceae",
+    "description": {
+      "overview": "A revered sacred tree whose bark and flowers are traditionally utilized for women's reproductive health and anti-inflammatory formulations.",
+      "habitat": "Native to the Indian subcontinent; planted commonly near temples and along riverbanks.",
+      "plant_parts_used": ["Bark", "Flowers"]
+    },
+    "iucn_status": {
+      "status": "Vulnerable (VU) regionally due to habitat loss and overexploitation.",
+      "sources": ["IUCN Red List 2024", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Menorrhagia and uterine disorders",
+        "context": "Bark decoctions used to regulate and reduce excessive menstrual bleeding."
+      },
+      {
+        "use": "Uterine tonic",
+        "context": "Formulations with bark and flowers to strengthen uterine functions."
+      }
+    ],
+    "major_constituents": [
+      "Catechin",
+      "Epicatechin",
+      "Flavonoids",
+      "Tannins",
+      "Phenolic acids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Uterotonic",
+        "mechanism": "Induces contraction in isolated uterine tissue.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Hemostatic",
+        "mechanism": "Reduces bleeding time in animal models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibits TNF-α and pro-inflammatory cytokines.",
+        "evidence": "Int Immunopharmacol. 2019"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain reduction in hot-plate and tail-flick test models.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "FRAP assay activity.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Streptococcus and Staphylococcus species.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Incision wound repair model enhancement.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protects liver tissue from CCl4 toxicity.",
+        "evidence": "Pharm Biol. 2018"
+      },
+      {
+        "name": "Anti-anemic",
+        "mechanism": "Increases hemoglobin levels in anemia models.",
+        "evidence": "Indian J Tradit Knowl. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Bark extracts used in women’s health supplements for menstrual disorders.",
+      "Flower extracts used in anti-inflammatory skincare and tonics."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe in animal tests up to 1 g/kg.",
+      "genotoxicity": "No genotoxicity detected in micronucleus assays.",
+      "source": ["Toxicol Lett. 2018", "Mutagenesis 2017"],
+      "precautions": [
+        "Use during pregnancy only under professional supervision.",
+        "Potential interactions with anticoagulant medications."
+      ]
+    },
+    "references": [
+      "Pharm Biol. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Int Immunopharmacol. 2019",
+      "Pharmacol Biochem Behav. 2016",
+      "Food Chem. 2017",
+      "BMC Complement Altern Med. 2017",
+      "J. Wound Care. 2019",
+      "Pharm Biol. 2018",
+      "Indian J Tradit Knowl. 2016"
+    ]
+  },
+
+  {
+    "id": "schefflera_arboricola",
+    "common_names": ["Dwarf umbrella tree"],
+    "botanical_name": "Schefflera arboricola",
+    "family": "Araliaceae",
+    "description": {
+      "overview": "An ornamental shrub commonly grown as a houseplant; leaves occasionally used in folk remedies for mild inflammation.",
+      "habitat": "Native to Taiwan and Hainan; widely cultivated indoors and in gardens worldwide.",
+      "plant_parts_used": ["Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN", "Kew Plants of the World Online"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Anti-inflammatory poultice",
+        "context": "Leaf poultices applied topically to reduce swelling and localized inflammation."
+      },
+      {
+        "use": "Supportive herbal extracts",
+        "context": "Leaf infusions included in topical creams for mild skin inflammation."
+      }
+    ],
+    "major_constituents": [
+      "Triterpenoids",
+      "Flavonoids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging (DPPH assay).",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antifungal",
+        "mechanism": "Inhibits dermatophytes in vitro.",
+        "evidence": "Mycoses 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction in writhing pain model.",
+        "evidence": "Phytother Res. 2019"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX inhibition activity.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity against HeLa cancer cell lines.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Gram-positive bacteria.",
+        "evidence": "J. Med Microbiol. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection in paracetamol-induced liver injury models.",
+        "evidence": "Pharm Biol. 2018"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhances repair in excision wound animal models.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Anti-arthritic",
+        "mechanism": "Suppresses carrageenan-induced paw edema.",
+        "evidence": "Pharmacol Res. 2017"
+      },
+      {
+        "name": "Anti-protozoal",
+        "mechanism": "Inhibition of protozoal parasites in vitro.",
+        "evidence": "Parasitology 2016"
+      }
+    ],
+    "modern_applications": [
+      "Extracts are being studied for development of topical anti-inflammatory and wound healing products."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg in rodents.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Patch test recommended before topical use.",
+        "Avoid use on broken or irritated skin."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "Mycoses 2018",
+      "Phytother Res. 2019",
+      "Inflammopharmacology 2018",
+      "Cancer Lett. 2019",
+      "J. Med Microbiol. 2017",
+      "Pharm Biol. 2018",
+      "J. Wound Care. 2019",
+      "Pharmacol Res. 2017",
+      "Parasitology 2016"
+    ]
+  },
+
+  {
+    "id": "spinacia_oleracea",
+    "common_names": ["Spinach"],
+    "botanical_name": "Spinacia oleracea",
+    "family": "Amaranthaceae",
+    "description": {
+      "overview": "A leafy green vegetable rich in vitamins, minerals, and antioxidants, widely cultivated and consumed globally.",
+      "habitat": "Cultivated worldwide in temperate and subtropical regions.",
+      "plant_parts_used": ["Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated as a crop.",
+      "sources": ["Kew POWO", "FAO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Leafy vegetable and poultice",
+        "context": "Consumed as a nutrient-rich vegetable; leaf pastes used topically for mild inflammation."
+      },
+      {
+        "use": "Weaning and baby food",
+        "context": "Leaf purée included in infant food recipes for nutrition."
+      }
+    ],
+    "major_constituents": [
+      "Lutein",
+      "β-Carotene",
+      "Quercetin",
+      "Iron",
+      "Folate",
+      "Vitamins A and C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "ORAC assay and free radical scavenging activity.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppression of NF-κB mediated pathways.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Cardioprotective",
+        "mechanism": "Protection demonstrated in isoproterenol-induced cardiac models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protective effects in CCl₄-induced liver damage.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "Improves insulin signaling pathways.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Anticancer",
+        "mechanism": "In vitro activity on colon cancer cell lines.",
+        "evidence": "Mol Carcinog. 2018"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Reduction of ulcer formation in gastric models.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Anti-anemic",
+        "mechanism": "Increases hemoglobin in iron-deficiency models.",
+        "evidence": "Indian J Nutr. 2016"
+      },
+      {
+        "name": "Cognitive benefits",
+        "mechanism": "Enhances memory and cognitive function in murine models.",
+        "evidence": "Neurosci Lett. 2019"
+      },
+      {
+        "name": "Antispasmodic",
+        "mechanism": "Smooth muscle relaxation in the gut.",
+        "evidence": "Phytother Res. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Leaf extracts are included in nutraceuticals targeting eye health and antioxidant support.",
+      "Widely used in dietary supplements and baby formula fortifications."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity up to 5 g/kg in animal intake studies.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Thorough washing recommended to remove soil and pesticides.",
+        "High oxalate content may affect kidney stone prone individuals."
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "Int Immunopharmacol. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Pharm Biol. 2019",
+      "J. Diabetes Res. 2018",
+      "Mol Carcinog. 2018",
+      "Planta Med. 2017",
+      "Indian J Nutr. 2016",
+      "Neurosci Lett. 2019",
+      "Phytother Res. 2018"
+    ]
+  },
+
+  {
+    "id": "syzygium_cumini",
+    "common_names": ["Java plum", "Jamun"],
+    "botanical_name": "Syzygium cumini",
+    "family": "Myrtaceae",
+    "description": {
+      "overview": "A tropical fruit tree prized for its antidiabetic, antioxidant, and antimicrobial properties.",
+      "habitat": "Native to South Asia; widely cultivated in tropical regions worldwide.",
+      "plant_parts_used": ["Seeds", "Fruit", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Antidiabetic and digestive aid",
+        "context": "Seed extracts traditionally used to regulate blood sugar and treat diarrhea."
+      },
+      {
+        "use": "Oral hygiene",
+        "context": "Leaf decoctions used as mouthwash to promote gum health."
+      },
+      {
+        "use": "Nutraceutical",
+        "context": "Dried seed powder incorporated in dietary supplements."
+      },
+      {
+        "use": "Preserved fruit",
+        "context": "Fruit used in jams and beverages for health benefits."
+      }
+    ],
+    "major_constituents": [
+      "Jambosine (alkaloid)",
+      "Ellagic acid",
+      "Quercetin"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Promotes pancreatic β-cell regeneration and glucose control.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX-2 inhibition.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against oral streptococci and systemic pathogens.",
+        "evidence": "Arch Oral Biol. 2016"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protective in chemically induced liver injury models.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Reduces lipid levels in high-fat diet animal models.",
+        "evidence": "Lipids Health Dis. 2018"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Anticancer activity in MCF-7 breast cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Ulcer prevention and gastric mucosa protection.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Anti-anemic",
+        "mechanism": "Increases red blood cell counts and hemoglobin levels.",
+        "evidence": "Indian J Tradit Knowl. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Jamun seed extracts in antidiabetic nutraceuticals.",
+      "Fruit pulp in functional foods and beverages."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg in rodent models.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Consult healthcare providers when used with hypoglycemic medications.",
+        "Monitoring blood sugar levels advised during use."
+      ]
+    },
+    "references": [
+      "J. Diabetes Res. 2019",
+      "Food Chem. 2017",
+      "Inflammopharmacology 2018",
+      "Arch Oral Biol. 2016",
+      "Pharm Biol. 2017",
+      "Lipids Health Dis. 2018",
+      "Cancer Lett. 2019",
+      "Planta Med. 2017",
+      "Indian J Tradit Knowl. 2016"
+    ]
+},
+
+  {
+    "id": "syzygium_jambos",
+    "common_names": ["Rose apple"],
+    "botanical_name": "Syzygium jambos",
+    "family": "Myrtaceae",
+    "description": {
+      "overview": "A tropical fruit tree whose leaves and fruit are used for astringent and antidiarrheal remedies.",
+      "habitat": "Cultivated in tropical Asia and the Americas.",
+      "plant_parts_used": ["Leaves", "Fruit"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": [
+        "Kew Plants of the World Online",
+        "India Biodiversity Portal"
+      ]
+    },
+    "traditional_uses": [
+      {
+        "use": "Antidiarrheal and astringent",
+        "context": "Leaf decoctions traditionally taken to firm stools and control diarrhea."
+      },
+      {
+        "use": "Folk syrups and preserves",
+        "context": "Fruit processed into medicinal preserves and syrups."
+      },
+      {
+        "use": "Herbal teas",
+        "context": "Leaf tea sold in commercial preparations for digestive support."
+      }
+    ],
+    "major_constituents": [
+      "Myricetin",
+      "Tannins",
+      "Ellagic acid",
+      "Vitamin C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "ABTS and FRAP radical scavenging activity.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Escherichia coli and Staphylococcus aureus.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppression of TNF-α and related inflammatory mediators.",
+        "evidence": "Int Immunopharmacol. 2018"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Inhibition of α-glucosidase enzyme, lowering blood sugar.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protection in experimental gastric ulcer models.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Liver protection in carbon tetrachloride toxicity model.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain reduction demonstrated in writhing models.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced tissue repair in animal models of wounds.",
+        "evidence": "J. Wound Care. 2018"
+      },
+      {
+        "name": "Anti-ulcerogenic",
+        "mechanism": "Mucus secretion enhancement providing gastroprotection.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Leaf extracts used in digestive health teas and supplements.",
+      "Fruit-derived astringents incorporated in skincare products."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 1 g/kg in rodent studies.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Avoid overconsumption leading to constipation.",
+        "Use moderate doses in children."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "BMC Complement Altern Med. 2017",
+      "Int Immunopharmacol. 2018",
+      "J. Diabetes Res. 2018",
+      "Planta Med. 2017",
+      "Pharm Biol. 2019",
+      "Pharmacol Biochem Behav. 2016",
+      "J. Wound Care. 2018"
+    ]
+  },
+
+  {
+    "id": "tabernaemontana_divaricata",
+    "common_names": ["Crape jasmine", "Pinwheel flower"],
+    "botanical_name": "Tabernaemontana divaricata",
+    "family": "Apocynaceae",
+    "description": {
+      "overview": "An ornamental jasmine species with traditional uses as an analgesic and antipyretic.",
+      "habitat": "Native to India and Southeast Asia; grown widely in tropical gardens.",
+      "plant_parts_used": ["Flowers", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": [
+        "India Biodiversity Portal",
+        "Kew Plants of the World Online"
+      ]
+    },
+    "traditional_uses": [
+      {
+        "use": "Analgesic and antipyretic",
+        "context": "Infusions of flowers and leaves consumed to alleviate pain and fever."
+      },
+      {
+        "use": "Aromatic bath infusions",
+        "context": "Flower extracts added to bathwater for relaxation and skin soothing."
+      },
+      {
+        "use": "Topical analgesic creams",
+        "context": "Flower extract included in ointments applied to painful areas."
+      }
+    ],
+    "major_constituents": [
+      "Alkaloids (tabernaemontanine, voacangine)"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibition of COX enzymes and inducible nitric oxide synthase (iNOS).",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in formalin and hot-plate tests.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Antispasmodic",
+        "mechanism": "Relaxation of isolated ileum smooth muscle.",
+        "evidence": "Phytother Res. 2019"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Pseudomonas aeruginosa.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Cytotoxic effects in HeLa and MCF-7 cancer cell lines.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Hypotensive",
+        "mechanism": "Reduction of blood pressure in rat hypertension models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Improved repair in incision wound animal models.",
+        "evidence": "J. Wound Care. 2018"
+      },
+      {
+        "name": "Neuroprotective",
+        "mechanism": "Protection in Parkinson's disease experimental models.",
+        "evidence": "Neurosci Lett. 2019"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Liver protection in acetaminophen toxicity models.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Larvicidal",
+        "mechanism": "Toxicity to mosquito larvae.",
+        "evidence": "Parasitology 2016"
+      }
+    ],
+    "modern_applications": [
+      "Flower alkaloids utilized in topical analgesic creams and ointments.",
+      "Bath oils and aromatherapy products formulated from flower extracts."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity detected up to 2 g/kg in animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Avoid internal consumption without proper guidance.",
+        "Low concentration recommended for topical use to minimize irritation."
+      ]
+    },
+    "references": [
+      "Inflammopharmacology 2018",
+      "J. Ethnopharmacol. 2017",
+      "Phytother Res. 2019",
+      "BMC Complement Altern Med. 2016",
+      "Cancer Lett. 2019",
+      "J. Ethnopharmacol. 2018",
+      "J. Wound Care. 2018",
+      "Neurosci Lett. 2019",
+      "Pharm Biol. 2017",
+      "Parasitology 2016"
+    ]
+  },
+
+  {
+    "id": "trigonella_foenum_graecum",
+    "common_names": ["Fenugreek"],
+    "botanical_name": "Trigonella foenum-graecum",
+    "family": "Fabaceae",
+    "description": {
+      "overview": "A culinary spice and galactagogue extensively used in Ayurveda and folk medicine to enhance lactation and support digestion.",
+      "habitat": "Cultivated globally across temperate and subtropical regions.",
+      "plant_parts_used": ["Seeds", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated.",
+      "sources": ["FAO", "Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Lactation enhancer and digestive aid",
+        "context": "Seed decoction consumed to increase milk production in breastfeeding mothers."
+      },
+      {
+        "use": "Culinary spice",
+        "context": "Seeds ground into powder used as spice and health tonic."
+      },
+      {
+        "use": "Galactagogue supplements",
+        "context": "Standardized extracts marketed to nursing mothers."
+      }
+    ],
+    "major_constituents": [
+      "Diosgenin",
+      "Galactomannan",
+      "Saponins",
+      "Dietary fiber",
+      "Protein"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Activation of PPARγ leading to glucose regulation.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Reduction of serum cholesterol in animal studies.",
+        "evidence": "Lipids Health Dis. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibition of TNF-α and COX-2 pathways.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging activity.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protection in ethanol-induced gastric ulcer models.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in hot-plate assay models.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity in HepG2 liver cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced repair in incision model studies.",
+        "evidence": "J. Wound Care. 2018"
+      },
+      {
+        "name": "Anti-ulcerogenic",
+        "mechanism": "Increased mucus secretion protecting gastric mucosa.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Used in galactagogue and blood sugar management supplements.",
+      "Incorporated in health formulations for metabolic support."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity observed up to 2 g/kg in models.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "May cause mild gastrointestinal discomfort at high doses.",
+        "Use under medical supervision during pregnancy."
+      ]
+    },
+    "references": [
+      "J. Diabetes Res. 2018",
+      "Lipids Health Dis. 2017",
+      "Inflammopharmacology 2018",
+      "Food Chem. 2017",
+      "Planta Med. 2017",
+      "Pharmacol Biochem Behav. 2016",
+      "Cancer Lett. 2019",
+      "J. Wound Care. 2018"
+    ]
+  },
+
+  {
+    "id": "andrographis_paniculata",
+    "common_names": ["Green chiretta", "Kalmegh"],
+    "botanical_name": "Andrographis paniculata",
+    "family": "Acanthaceae",
+    "description": {
+      "overview": "An herb extensively used in traditional medicine for respiratory infections, fever, and immune support.",
+      "habitat": "Native to South and Southeast Asia; cultivated in tropical regions worldwide.",
+      "plant_parts_used": ["Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN", "Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Upper respiratory infection treatment",
+        "context": "Leaf extracts used for relieving cold and flu symptoms."
+      },
+      {
+        "use": "Fever and detoxification",
+        "context": "Decoctions taken as fever reducers and systemic detoxifiers."
+      },
+      {
+        "use": "Commercial extracts",
+        "context": "Standardized tablets/ capsules marketed as immune boosters."
+      }
+    ],
+    "major_constituents": [
+      "Andrographolide",
+      "Neoandrographolide"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Down-regulation of NF-κB inflammatory pathways.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Antiviral",
+        "mechanism": "Activity against Influenza A virus.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection against carbon tetrachloride-induced liver damage.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Immunomodulatory",
+        "mechanism": "Enhances macrophage activity and phagocytosis.",
+        "evidence": "J. Immunol Res. 2016"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Inhibits α-glucosidase reducing postprandial glucose.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging (DPPH assay).",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction in acetic acid induced writhing.",
+        "evidence": "Pharmacol Biochem Behav. 2018"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity in MCF-7 breast cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Anti-malarial",
+        "mechanism": "Activity against Plasmodium berghei infections.",
+        "evidence": "Malar J. 2016"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protection from ethanol-induced gastric ulcers.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Standardized extracts used in cold, flu, and immune support formulations.",
+      "Study candidate for new antiviral herbal supplements."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg in animal models.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Potential interferences with immunosuppressive therapy.",
+        "Supervision recommended during pregnancy."
+      ]
+    },
+    "references": [
+      "Int Immunopharmacol. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Pharm Biol. 2019",
+      "J. Immunol Res. 2016",
+      "J. Diabetes Res. 2019",
+      "Food Chem. 2017",
+      "Pharmacol Biochem Behav. 2018",
+      "Cancer Lett. 2019",
+      "Malar J. 2016",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "hygrophila_auriculata",
+    "common_names": ["Marsh barbel", "Kokilaksha"],
+    "botanical_name": "Hygrophila auriculata",
+    "family": "Acanthaceae",
+    "description": {
+      "overview": "An aquatic herb used traditionally for kidney stones, diuretic and joint ailments.",
+      "habitat": "Found commonly in marshy and wetland regions of South Asia.",
+      "plant_parts_used": ["Whole plant"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Diuretic and anti-inflammatory",
+        "context": "Taken orally to promote urination and reduce inflammation."
+      },
+      {
+        "use": "Poultice for joint pain",
+        "context": "Applied topically to reduce swelling and pain in arthritis."
+      },
+      {
+        "use": "Herbal kidney formulations",
+        "context": "Included in polyherbal blends to support renal health."
+      }
+    ],
+    "major_constituents": [
+      "Flavonoids (apigenin)",
+      "Triterpenoids (betulinic acid)",
+      "Vitamins A and C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Liver protection in carbon tetrachloride injury.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Anti-urolithiatic",
+        "mechanism": "Prevention and breakdown of kidney stones in animals.",
+        "evidence": "Urolithiasis 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging via phenolics.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-arthritic",
+        "mechanism": "Suppression of inflammation in arthritis models.",
+        "evidence": "Inflammopharmacology 2019"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Pain relief in mouse hot-plate test.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Gram-negative bacteria.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Diuretic",
+        "mechanism": "Increases urine output in rodent models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Immunomodulatory",
+        "mechanism": "Enhances IgG antibody levels.",
+        "evidence": "Int Immunopharmacol. 2017"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Increases gastric mucus secretion.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Used in kidney health nutraceuticals.",
+      "Extracts explored as joint support supplements."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe up to 1 g/kg in animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Monitor kidney function during prolonged use.",
+        "Avoid excessive diuretic effect."
+      ]
+    },
+    "references": [
+      "Pharm Biol. 2017",
+      "Urolithiasis 2018",
+      "Food Chem. 2017",
+      "Inflammopharmacology 2019",
+      "Pharmacol Biochem Behav. 2016",
+      "BMC Complement Altern Med. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Int Immunopharmacol. 2017",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "justicia_adhatoda",
+    "common_names": ["Malabar nut", "Vasaka"],
+    "botanical_name": "Justicia adhatoda",
+    "family": "Acanthaceae",
+    "description": {
+      "overview": "An Ayurvedic herb widely used as a bronchodilator and cough suppressant.",
+      "habitat": "Native to South Asia; cultivated extensively in tropical gardens.",
+      "plant_parts_used": ["Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Bronchodilator and cough remedy",
+        "context": "Leaf extracts consumed to relieve bronchial spasms and respiratory congestion."
+      },
+      {
+        "use": "Standardized cough syrups",
+        "context": "Allopathic and Ayurvedic cough syrups incorporate extracts of Vasaka."
+      },
+      {
+        "use": "Unani medicine",
+        "context": "Decoctions used to ease respiratory ailments."
+      }
+    ],
+    "major_constituents": [
+      "Vasicine",
+      "Vasicinone"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Bronchodilatory",
+        "mechanism": "Smooth muscle relaxation in guinea pig trachea.",
+        "evidence": "Phytother Res. 2017"
+      },
+      {
+        "name": "Anti-asthmatic",
+        "mechanism": "Stabilization of mast cells to reduce allergic responses.",
+        "evidence": "Int Immunopharmacol. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against respiratory pathogens including bacteria.",
+        "evidence": "Arch Oral Biol. 2018"
+      },
+      {
+        "name": "Antitussive",
+        "mechanism": "Suppression of cough reflex in citric acid-induced models.",
+        "evidence": "Pharmacol Biochem Behav. 2018"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibition of COX-2 enzyme.",
+        "evidence": "Inflammopharmacology 2019"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Anticancer activity in lung carcinoma A549 cells.",
+        "evidence": "Mol Cell Toxicol. 2019"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection against CCl₄-induced liver injury.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH and ABTS radical scavenging.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-amoebic",
+        "mechanism": "Inhibition of Entamoeba histolytica growth.",
+        "evidence": "Exp Parasitol. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Common ingredient in cough syrups and inhalants.",
+      "Studied for new bronchodilator and anti-inflammatory drugs."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg in animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Not recommended without supervision during pregnancy.",
+        "Monitor thyroid function with prolonged use."
+      ]
+    },
+    "references": [
+      "Phytother Res. 2017",
+      "Int Immunopharmacol. 2018",
+      "Arch Oral Biol. 2018",
+      "Pharmacol Biochem Behav. 2018",
+      "Inflammopharmacology 2019",
+      "Mol Cell Toxicol. 2019",
+      "Pharm Biol. 2017",
+      "Food Chem. 2016",
+      "Exp Parasitol. 2017"
+    ]
+  },
+
+  {
+    "id": "cinnamomum_macrocarpum",
+    "common_names": ["Wild Cinnamon"],
+    "botanical_name": "Cinnamomum macrocarpum",
+    "family": "Lauraceae",
+    "description": {
+      "overview": "A wild cinnamon species used as a spice and digestive aid with traditional applications in Chinese medicine.",
+      "habitat": "Found in tropical forests; used historically in traditional Chinese medicine.",
+      "plant_parts_used": ["Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["Kew POWO", "IUCN"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Digestive aid and anti-inflammatory",
+        "context": "Bark powder used in culinary and herbal medicines to support digestion."
+      },
+      {
+        "use": "Culinary flavor",
+        "context": "Spice added to teas and food preparations."
+      },
+      {
+        "use": "Traditional teas",
+        "context": "Bark infusion consumed as a soothing tonic."
+      },
+      {
+        "use": "Medicinal in Chinese texts",
+        "context": "Used to promote circulation and digestives."
+      }
+    ],
+    "major_constituents": [
+      "Cinnamaldehyde",
+      "Eugenol"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against foodborne pathogens.",
+        "evidence": "Food Control 2017"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "ORAC assay shows strong radical scavenging.",
+        "evidence": "Food Chem. 2018"
+      },
+      {
+        "name": "Anti-diabetic",
+        "mechanism": "Enhances glucose uptake by cells.",
+        "evidence": "Phytother Res. 2019"
+      },
+      {
+        "name": "Anti-ulcer",
+        "mechanism": "Protects gastric mucosa in ethanol-induced ulcer models.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Cardioprotective",
+        "mechanism": "Protects myocardium against injury.",
+        "evidence": "Int J Cardiol. 2018"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduces pain in hot-plate assays.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Active against MCF-7 breast cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Enhances mucus production and mucosal defense.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Antimicrobial (topical)",
+        "mechanism": "Effective in topical cream formulations.",
+        "evidence": "J. Cosmet Dermatol. 2019"
+      }
+    ],
+    "modern_applications": [
+      "Wild cinnamon bark used in digestive health supplements.",
+      "Extracts included in topical antimicrobial and anti-inflammatory products."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity observed up to 2 g/kg in animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Avoid excessive use in patients with bleeding disorders.",
+        "Use sparingly to prevent gastrointestinal irritation."
+      ]
+    },
+    "references": [
+      "Food Control 2017",
+      "Food Chem. 2018",
+      "Phytother Res. 2019",
+      "Planta Med. 2017",
+      "Int J Cardiol. 2018",
+      "Pharmacol Biochem Behav. 2016",
+      "Cancer Lett. 2019",
+      "J. Cosmet Dermatol. 2019"
+    ]
+  },
+
+  {
+    "id": "eclipta_prostrata",
+    "common_names": ["False daisy"],
+    "botanical_name": "Eclipta prostrata",
+    "family": "Asteraceae",
+    "description": {
+      "overview": "An herb traditionally used as a liver tonic and for promoting hair growth and scalp health.",
+      "habitat": "Common in moist tropical climates worldwide.",
+      "plant_parts_used": ["Whole plant"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Liver tonic and hair growth promoter",
+        "context": "Extracts used in hair oils and scalp treatments."
+      },
+      {
+        "use": "Topical poultices for skin ailments",
+        "context": "Pulverized herb applied on wounds, rashes, and irritated skin."
+      },
+      {
+        "use": "Included in liver detox formulas",
+        "context": "Dried extract marketed in liver support supplements."
+      }
+    ],
+    "major_constituents": [
+      "Wedelolactone",
+      "Demethylwedelolactone"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection from carbon tetrachloride-induced liver injury.",
+        "evidence": "Pharm Biol. 2019"
+      },
+      {
+        "name": "Anti-alopecia",
+        "mechanism": "Induces hair growth in experimental models.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging activity.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibits NF-κB mediated inflammatory pathways.",
+        "evidence": "Int Immunopharmacol. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Staphylococcus aureus and Escherichia coli.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in tail-flick assay.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Anti-cancer activity in HeLa cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Anti-ulcer",
+        "mechanism": "Enhancement of gastric mucus secretion.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Extracts used in hair care products for promoting scalp health and hair growth.",
+      "Inclusion in liver tonic and detoxification supplement formulations."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg documented.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Avoid undiluted application on skin to prevent irritation.",
+        "Monitor liver function when used long-term."
+      ]
+    },
+    "references": [
+      "Pharm Biol. 2019",
+      "J. Ethnopharmacol. 2017",
+      "Food Chem. 2017",
+      "Int Immunopharmacol. 2018",
+      "BMC Complement Altern Med. 2017",
+      "Pharmacol Biochem Behav. 2016",
+      "Cancer Lett. 2019",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "rauvolfia_serpentina",
+    "common_names": ["Sarpagandha"],
+    "botanical_name": "Rauvolfia serpentina",
+    "family": "Apocynaceae",
+    "description": {
+      "overview": "An Ayurvedic shrub traditionally used to manage hypertension and insomnia.",
+      "habitat": "Native to the Indian subcontinent; cultivated in tropical regions.",
+      "plant_parts_used": ["Roots"]
+    },
+    "iucn_status": {
+      "status": "Vulnerable (VU)",
+      "sources": ["IUCN Red List 2024", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Hypertension and psychiatric disorders",
+        "context": "Root decoctions used to lower blood pressure and treat mental health conditions."
+      },
+      {
+        "use": "Ayurvedic formulations",
+        "context": "Standardized extracts containing reserpine prescribed for cardiovascular and nervous system support."
+      },
+      {
+        "use": "Sleep aid",
+        "context": "Used to promote restful sleep and reduce anxiety."
+      }
+    ],
+    "major_constituents": [
+      "Reserpine",
+      "Ajmaline"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antihypertensive",
+        "mechanism": "Depletion of central catecholamines lowering blood pressure.",
+        "evidence": "Clin Exp Hypertens. 2017"
+      },
+      {
+        "name": "Antipsychotic",
+        "mechanism": "Modulates behavior in experimental models.",
+        "evidence": "Psychopharmacology 2018"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "COX enzyme inhibition reducing inflammation.",
+        "evidence": "Inflammopharmacology 2019"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging activity.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity against leukemia cell lines.",
+        "evidence": "Mol Carcinog. 2019"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Protection of gastric mucosa from ulcers.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Sedative",
+        "mechanism": "Behavioral sedation in animal models.",
+        "evidence": "Phytother Res. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against Gram-positive bacteria.",
+        "evidence": "J. Med Microbiol. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Prevents liver injury induced by toxins.",
+        "evidence": "Pharm Biol. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Reserpine-containing pharmaceuticals used for hypertension control.",
+      "Investigational drug for psychiatric conditions."
+    ],
+    "safety": {
+      "acute_toxicity": "Narrow therapeutic index; clinical monitoring required.",
+      "source": "Clin Toxicol. 2018",
+      "precautions": [
+        "Use only under strict medical supervision.",
+        "Monitor cardiovascular and CNS side effects."
+      ]
+    },
+    "references": [
+      "Clin Exp Hypertens. 2017",
+      "Psychopharmacology 2018",
+      "Inflammopharmacology 2019",
+      "Food Chem. 2016",
+      "Mol Carcinog. 2019",
+      "Planta Med. 2017",
+      "Phytother Res. 2018",
+      "J. Med Microbiol. 2017",
+      "Pharm Biol. 2018"
+    ]
+  },
+
+  {
+    "id": "aegle_marmelos",
+    "common_names": ["Bael"],
+    "botanical_name": "Aegle marmelos",
+    "family": "Rutaceae",
+    "description": {
+      "overview": "A sacred tree whose fruit and bark are used for digestive and menstrual health in traditional medicine.",
+      "habitat": "Native to India and Southeast Asia; widely grown in tropical climates.",
+      "plant_parts_used": ["Fruit", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Treatment of diarrhea and dysentery",
+        "context": "Decoctions of bark and fruit taken to regulate bowel movements."
+      },
+      {
+        "use": "Folk syrups and preserves",
+        "context": "Fruit pulp processed into jams and therapeutic syrups."
+      },
+      {
+        "use": "Digestive tonic",
+        "context": "Extracts incorporated into formulations for gastrointestinal health."
+      }
+    ],
+    "major_constituents": [
+      "Marmelosin",
+      "Tannins",
+      "Alkaloids",
+      "Vitamins A and C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against enteric bacterial pathogens.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Antidiarrheal",
+        "mechanism": "Reduction of intestinal motility.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Scavenging of ABTS radicals.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibition of TNF-α mediated pathways.",
+        "evidence": "Int Immunopharmacol. 2019"
+      },
+      {
+        "name": "Hypolipidemic",
+        "mechanism": "Reduction of lipid profile in hyperlipidemic models.",
+        "evidence": "Lipids Health Dis. 2016"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protection against CCl₄ induced liver toxicity.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity in human colon cancer cells.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Ulcer prevention via increased mucosal defense.",
+        "evidence": "Planta Med. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced incision wound repair.",
+        "evidence": "J. Wound Care. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Extracts used in gastrointestinal health supplements.",
+      "Fruit-derived products marketed for digestive wellness."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 2 g/kg in animal models.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Avoid use in cases of severe constipation.",
+        "Monitor blood sugar levels when used concurrently with hypoglycemic agents."
+      ]
+    },
+    "references": [
+      "BMC Complement Altern Med. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Food Chem. 2017",
+      "Int Immunopharmacol. 2019",
+      "Lipids Health Dis. 2016",
+      "Pharm Biol. 2017",
+      "Cancer Lett. 2019",
+      "Planta Med. 2017",
+      "J. Wound Care. 2018"
+    ]
+  },
+
+  {
+    "id": "dipterocarpus_indicus",
+    "common_names": ["Kalpain", "Karanjili"],
+    "botanical_name": "Dipterocarpus indicus",
+    "family": "Dipterocarpaceae",
+    "description": {
+      "overview": "A tropical tree known for resin and bark used in traditional medicine for joint pain and skin conditions.",
+      "habitat": "Native to Western Ghats of India; found in evergreen forests.",
+      "plant_parts_used": ["Resin", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Anti-inflammatory and analgesic poultices",
+        "context": "Resin and bark poultices applied to joints and painful areas."
+      },
+      {
+        "use": "Traditional oil extracts",
+        "context": "Used topically in massage oils for pain relief."
+      },
+      {
+        "use": "Joint-pain balms",
+        "context": "Ingredient in polyherbal ointments and balms."
+      }
+    ],
+    "major_constituents": [
+      "Dipterocarpol",
+      "Sesquiterpenes",
+      "Trace minerals"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Cyclooxygenase (COX) enzyme inhibition.",
+        "evidence": "Inflammopharmacology 2017"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Reduction of pain in writhing test models.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against common skin pathogens.",
+        "evidence": "J. Med Microbiol. 2016"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Activity against MCF-7 breast cancer cell line.",
+        "evidence": "Cancer Lett. 2019"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Improves wound repair in animal models.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Anti-arthritic",
+        "mechanism": "Suppression of carrageenan-induced edema.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Larvicidal",
+        "mechanism": "Toxicity to mosquito larvae.",
+        "evidence": "Parasitology 2016"
+      },
+      {
+        "name": "Gastroprotective",
+        "mechanism": "Increases mucus secretion, protecting gastric lining.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Resin extracts used in topical joint and pain relief formulations.",
+      "Research focus on analgesic drug development."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity observed up to 1 g/kg in models.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Avoid application on open wounds.",
+        "Patch testing recommended before use."
+      ]
+    },
+    "references": [
+      "Inflammopharmacology 2017",
+      "J. Ethnopharmacol. 2018",
+      "J. Med Microbiol. 2016",
+      "Cancer Lett. 2019",
+      "J. Wound Care. 2019",
+      "Inflammopharmacology 2018",
+      "Parasitology 2016",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "calophyllum_apetalum",
+    "common_names": ["Cherupunna"],
+    "botanical_name": "Calophyllum apetalum",
+    "family": "Calophyllaceae",
+    "description": {
+      "overview": "A tree native to South India used in traditional medicine for skin and wound care.",
+      "habitat": "Found in evergreen forests of South India.",
+      "plant_parts_used": ["Leaves", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["IUCN", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Skin and wound-care poultices",
+        "context": "Leaves and bark applied as poultices to cuts and wounds."
+      },
+      {
+        "use": "Ayurvedic topical formulations",
+        "context": "Extracts included in herbal creams and oils for skin health."
+      },
+      {
+        "use": "Massage oils",
+        "context": "Traditionally infused oils used in massage therapy."
+      },
+      {
+        "use": "Commercial skincare products",
+        "context": "Extracts marketed in herbal skincare lines."
+      }
+    ],
+    "major_constituents": [
+      "Calophyllolide",
+      "Coumarins",
+      "Fatty acids",
+      "Sterols"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Lipid oxygenase (LOX) inhibition.",
+        "evidence": "Inflammopharmacology 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against fungal and bacterial skin pathogens.",
+        "evidence": "J. Med Microbiol. 2018"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced excision wound closure.",
+        "evidence": "J. Wound Care. 2019"
+      },
+      {
+        "name": "Analgesic",
+        "mechanism": "Decreased pain responses in hot-plate models.",
+        "evidence": "Pharmacol Biochem Behav. 2016"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "DPPH radical scavenging.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Cytotoxic",
+        "mechanism": "Anti-cancer activity in A549 cells.",
+        "evidence": "Mol Cell Toxicol. 2019"
+      },
+      {
+        "name": "Anti-fungal",
+        "mechanism": "In vitro inhibition of dermatophyte fungi.",
+        "evidence": "Mycoses 2017"
+      },
+      {
+        "name": "Anti-ulcer",
+        "mechanism": "Mucosal protection in gastric ulcer models.",
+        "evidence": "Planta Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Used in topical creams for wound and skin repair.",
+      "Included in traditional massage and herbal oils."
+    ],
+    "safety": {
+      "acute_toxicity": "No acute toxicity up to 1 g/kg reported.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Patch test recommended to prevent allergic skin reactions.",
+        "Avoid use in individuals sensitive to tree extracts."
+      ]
+    },
+    "references": [
+      "Inflammopharmacology 2017",
+      "J. Med Microbiol. 2018",
+      "J. Wound Care. 2019",
+      "Pharmacol Biochem Behav. 2016",
+      "Food Chem. 2017",
+      "Mol Cell Toxicol. 2019",
+      "Mycoses 2017",
+      "Planta Med. 2017"
+    ]
+  },
+
+  {
+    "id": "bambusoideae",
+    "common_names": ["Bamboo"],
+    "botanical_name": "Bambusoideae (subfamily, e.g. Bambusa vulgaris)",
+    "family": "Poaceae",
+    "description": {
+      "overview": "Fast-growing woody grasses with hollow stems (culms), integral to Asian cuisine, crafts, and medicine.",
+      "habitat": "Native to tropical and subtropical Asia, Africa, and Americas; grows in forests, hillsides, riverbanks.",
+      "plant_parts_used": ["Young shoots", "Leaves", "Stems"]
+    },
+    "iucn_status": {
+      "status": "Varies by species (some Least Concern, others threatened due to habitat loss)",
+      "sources": ["Kew POWO", "IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Edible shoots",
+        "context": "Young shoots consumed as vegetable; pickled or cooked in curries."
+      },
+      {
+        "use": "Traditional bone/fracture support",
+        "context": "Stem splints or poultices in bone setting."
+      },
+      {
+        "use": "Astringent remedy",
+        "context": "Leaf decoction for fever, cough, or as a general tonic."
+      }
+    ],
+    "major_constituents": [
+      "Silica",
+      "Bamboo-sil",
+      "Lignin",
+      "Polysaccharides",
+      "Phenolic acids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging due to phenolic acids.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppression of pro-inflammatory cytokines.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Diuretic",
+        "mechanism": "Promotes urine output in animal studies.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Antibacterial",
+        "mechanism": "Inhibits growth of common bacteria.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Bamboo shoots as gourmet and nutraceutical food.",
+      "Extracts in anti-inflammatory and skin-care products.",
+      "Bamboo fiber in textiles and bioplastics."
+    ],
+    "safety": {
+      "acute_toxicity": "Young shoots generally safe after proper boiling (to remove cyanogenic glycosides).",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Raw shoots may contain cyanogenic toxins—must be cooked.",
+        "High fiber content may not suit sensitive GI tracts."
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "J. Ethnopharmacol. 2017",
+      "BMC Complement Altern Med. 2016",
+      "Toxicol Lett. 2017"
+    ]
+  },
+
+  {
+    "id": "basella_alba",
+    "common_names": ["Malabar spinach", "Indian spinach"],
+    "botanical_name": "Basella alba",
+    "family": "Basellaceae",
+    "description": {
+      "overview": "A perennial vine with succulent leaves, widely consumed as a leafy vegetable and used in folk medicine.",
+      "habitat": "Native to tropical Asia and Africa; cultivated in gardens and fields.",
+      "plant_parts_used": ["Leaves", "Stems", "Roots"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["Kew POWO", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Leafy vegetable",
+        "context": "Cooked as green, added to dals, stews, and salads."
+      },
+      {
+        "use": "Mild laxative",
+        "context": "Leaf mucilage traditionally used for constipation."
+      },
+      {
+        "use": "Poultice for skin",
+        "context": "Leaves applied for boils and abscesses."
+      }
+    ],
+    "major_constituents": [
+      "Mucilage polysaccharides",
+      "Betalains",
+      "Saponins",
+      "Vitamin C",
+      "Iron"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Betalain and vitamin C content gives radical scavenging ability.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Mucilage suppresses inflammation.",
+        "evidence": "J. Ethnopharmacol. 2018"
+      },
+      {
+        "name": "Laxative",
+        "mechanism": "High mucilage absorbs water in intestines.",
+        "evidence": "Pharm Biol. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Activity against pathogenic bacteria.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Used in green vegetable powders and supplements.",
+      "Investigated for skin-cooling topical creams.",
+      "Potential natural pigment source in food industry."
+    ],
+    "safety": {
+      "acute_toxicity": "No reports of toxicity in traditional or animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Excess consumption may cause mild diarrhea.",
+        "Use moderately in pregnancy."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "J. Ethnopharmacol. 2018",
+      "Pharm Biol. 2017",
+      "BMC Complement Altern Med. 2017",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "brassica_juncea",
+    "common_names": ["Indian mustard", "Brown mustard"],
+    "botanical_name": "Brassica juncea",
+    "family": "Brassicaceae",
+    "description": {
+      "overview": "An annual herb grown for its pungent seeds and edible leaves, used as spice, oilseed, and leafy green.",
+      "habitat": "Native to Central Asia; widely cultivated in India, China, Europe.",
+      "plant_parts_used": ["Seeds", "Leaves", "Oil"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE); widely cultivated.",
+      "sources": ["Kew POWO", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Culinary use",
+        "context": "Leaves cooked as vegetable (sarson da saag); seeds used in pickles and spice blends."
+      },
+      {
+        "use": "Oil as external rub",
+        "context": "Mustard oil massaged on skin for pain, arthritis, and as hair tonic."
+      },
+      {
+        "use": "Digestive stimulant",
+        "context": "Seed powder used to aid digestion, and as carminative."
+      }
+    ],
+    "major_constituents": [
+      "Glucosinolates (sinigrin)",
+      "Isothiocyanates (allyl isothiocyanate)",
+      "Erucic acid (oil)",
+      "Vitamin K",
+      "Omega-3 fatty acids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Leaves and seeds scavenge free radicals.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Topical oil inhibits pro-inflammatory cytokines.",
+        "evidence": "Inflammopharmacology 2018"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Isothiocyanates act as natural antibiotics.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      },
+      {
+        "name": "Anticancer (in vitro)",
+        "mechanism": "Sulforaphane pathway modulates cell cycles.",
+        "evidence": "Mol Carcinog. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Mustard oil used in hair and skin-care products.",
+      "Mustard leave powders marketed as superfoods.",
+      "Isothiocyanates researched for cancer prevention."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity from seed/leaf at dietary levels; oil may cause skin irritation.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Mustard oil may not be suitable for infants or people with skin allergies.",
+        "High erucic acid content can affect heart if consumed in excess."
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "Inflammopharmacology 2018",
+      "BMC Complement Altern Med. 2016",
+      "Mol Carcinog. 2018",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "carissa_carandas",
+    "common_names": ["Karonda", "Christ's thorn"],
+    "botanical_name": "Carissa carandas",
+    "family": "Apocynaceae",
+    "description": {
+      "overview": "A hardy thorny shrub valued for its sour fruit used in chutney, pickling, and folk medicine.",
+      "habitat": "Native to India and Southeast Asia; grows wild and in gardens.",
+      "plant_parts_used": ["Fruit", "Root", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["Kew POWO", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Digestive chutney/pickle",
+        "context": "Fruits commonly consumed to stimulate appetite."
+      },
+      {
+        "use": "Anthelmintic remedy",
+        "context": "Root decoction used for intestinal worms."
+      },
+      {
+        "use": "Febrifuge",
+        "context": "Fruit syrup used in folk medicine for fever."
+      }
+    ],
+    "major_constituents": [
+      "Carissone",
+      "Flavonoids (quercetin)",
+      "Vitamin C",
+      "Saponins"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "High vitamin C and flavonoids yield radical scavenging.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Fruit and leaf extracts active against bacteria.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Hepatoprotective",
+        "mechanism": "Protects against chemically induced liver injury.",
+        "evidence": "Pharm Biol. 2018"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Reduces TNF-α and inflammation in rodent models.",
+        "evidence": "Int Immunopharmacol. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Fruit extract included in gastroprotective supplements.",
+      "Pickle valued as antioxidant food."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity up to 2 g/kg in animal studies.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Fruit is highly acidic; caution in gastritis patients.",
+        "Root decoction should be taken under supervision."
+      ]
+    },
+    "references": [
+      "Food Chem. 2016",
+      "BMC Complement Altern Med. 2017",
+      "Pharm Biol. 2018",
+      "Int Immunopharmacol. 2018",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "citrus_limon",
+    "common_names": ["Lemon"],
+    "botanical_name": "Citrus limon",
+    "family": "Rutaceae",
+    "description": {
+      "overview": "A small evergreen tree producing yellow citrus fruits rich in vitamin C, widely used in cuisine and remedies.",
+      "habitat": "Native to northeastern India; cultivated globally.",
+      "plant_parts_used": ["Fruit", "Peel", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List", "Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Scurvy prevention",
+        "context": "Fruit juice consumed to supplement vitamin C."
+      },
+      {
+        "use": "Digestive and antipyretic",
+        "context": "Juice or peel in folk remedies for digestive upsets and fever."
+      },
+      {
+        "use": "Oral and skincare",
+        "context": "Peel oil for breath freshening and skin care."
+      }
+    ],
+    "major_constituents": [
+      "Vitamin C",
+      "Limonene",
+      "Citric acid",
+      "Flavonoids (eriocitrin, hesperidin)"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Vitamin C, flavonoids scavenge free radicals.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Essential oils act against foodborne bacteria.",
+        "evidence": "BMC Complement Altern Med. 2018"
+      },
+      {
+        "name": "Immunomodulatory",
+        "mechanism": "Enhances immune markers in animal models.",
+        "evidence": "Int Immunopharmacol. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Lemon juice and extracts in functional beverages.",
+      "Citrus peel oils in aromatherapy and cleansers.",
+      "Natural vitamin C supplements."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity at typical dietary doses.",
+      "source": "WHO Food Additive Monographs 2016",
+      "precautions": [
+        "Highly acidic; may erode tooth enamel if consumed excessively.",
+        "Essential oil can irritate skin if undiluted."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "BMC Complement Altern Med. 2018",
+      "Int Immunopharmacol. 2017",
+      "WHO Food Additive Monographs 2016"
+    ]
+  },
+
+  {
+    "id": "ficus_auriculata",
+    "common_names": ["Roxburgh fig", "Elephant ear fig"],
+    "botanical_name": "Ficus auriculata",
+    "family": "Moraceae",
+    "description": {
+      "overview": "A fig tree with large, ear-shaped leaves, traditionally used for edible figs and medicinal roots.",
+      "habitat": "Native to South Asia; found in riverbanks, foothills, wet forests.",
+      "plant_parts_used": ["Fruit", "Leaves", "Roots"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Edible fruit",
+        "context": "Fruits eaten fresh, cooked, or made into jams."
+      },
+      {
+        "use": "Root for diabetes",
+        "context": "Root extract used in traditional remedies for blood sugar control."
+      },
+      {
+        "use": "Poultice for wounds",
+        "context": "Leaves applied as wound dressing in folk medicine."
+      }
+    ],
+    "major_constituents": [
+      "β-sitosterol",
+      "Flavonoids (rutin)",
+      "Triterpenes",
+      "Polyphenols"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Suppresses TNF-α and pro-inflammatory mediators.",
+        "evidence": "Int Immunopharmacol. 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Polyphenol and flavonoid content.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Root extracts lower blood glucose in animal studies.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhances tissue repair in animal models.",
+        "evidence": "J. Wound Care. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Fruit in jams and functional desserts.",
+      "Root and leaf extracts studied for blood sugar–support supplements."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity apparent in traditional use.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Root preparations to be used under medical guidance.",
+        "Fruit is safe when fully ripe."
+      ]
+    },
+    "references": [
+      "Int Immunopharmacol. 2018",
+      "Food Chem. 2017",
+      "J. Ethnopharmacol. 2017",
+      "J. Wound Care. 2018",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "ficus_benjamina",
+    "common_names": ["Weeping fig"],
+    "botanical_name": "Ficus benjamina",
+    "family": "Moraceae",
+    "description": {
+      "overview": "A widely grown ornamental fig tree, occasionally used in folk medicine for its latex and leaves.",
+      "habitat": "Native to SE Asia, frequently planted in tropical/subtropical regions as a landscape tree.",
+      "plant_parts_used": ["Leaves", "Latex", "Bark"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["Kew POWO", "IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Latex for warts",
+        "context": "Latex applied topically for removal of warts in folk remedy."
+      },
+      {
+        "use": "Leaves for respiratory ailments",
+        "context": "Leaf decoction consumed for asthma and cough in local traditions."
+      },
+      {
+        "use": "Bark extract in skin health",
+        "context": "Applied for rashes and itching."
+      }
+    ],
+    "major_constituents": [
+      "Ficin (proteolytic enzyme)",
+      "Flavonoids",
+      "Triterpenoids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Leaf/latex extracts show broad spectrum antibacterial activity.",
+        "evidence": "BMC Complement Altern Med. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Inhibition of inflammatory mediators.",
+        "evidence": "Int Immunopharmacol. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Research in wound and skin-care product development.",
+      "Ornamental houseplant with air-purifying capacity."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity in diet or skin contact at typical traditional exposure.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Latex may cause skin reactions in sensitive people.",
+        "Leaf and latex not to be consumed in high dose."
+      ]
+    },
+    "references": [
+      "BMC Complement Altern Med. 2017",
+      "Int Immunopharmacol. 2018",
+      "Toxicol Lett. 2017"
+    ]
+  },
+
+  {
+    "id": "ficus_religiosa",
+    "common_names": ["Sacred fig", "Peepal tree"],
+    "botanical_name": "Ficus religiosa",
+    "family": "Moraceae",
+    "description": {
+      "overview": "A sacred fig tree integral in Indian religious tradition, with documented medicinal bark and leaf uses.",
+      "habitat": "Native to India/South Asia; grows in urban and temple lands.",
+      "plant_parts_used": ["Leaves", "Bark", "Fruit"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Antidiabetic bark remedy",
+        "context": "Bark decoction used for managing blood sugar in Ayurveda."
+      },
+      {
+        "use": "Leaf for bleeding disorders",
+        "context": "Leaf juice applied to wounds, used for bleeding and skin inflammation."
+      },
+      {
+        "use": "Fruit consumption",
+        "context": "Fruits eaten as mild laxative and for digestion."
+      }
+    ],
+    "major_constituents": [
+      "Flavonoids (quercetin)",
+      "Tannins",
+      "Phenolic acids",
+      "Ficusin"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Free radical scavenging by polyphenols.",
+        "evidence": "Food Chem. 2018"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Bark decoctions lower blood sugar in animal studies.",
+        "evidence": "J. Diabetes Res. 2019"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Leaf and bark inhibit cytokines and swelling.",
+        "evidence": "Int Immunopharmacol. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Bark extracts in traditional antidiabetic supplements.",
+      "Leaf and bark used in wound-healing and skin-care formulations."
+    ],
+    "safety": {
+      "acute_toxicity": "No toxicity seen in animal studies up to 2 g/kg.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "High dose may cause mild GI upset.",
+        "Pregnancy use only under supervision."
+      ]
+    },
+    "references": [
+      "Food Chem. 2018",
+      "J. Diabetes Res. 2019",
+      "Int Immunopharmacol. 2017",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "hibiscus_rosa_sinensis",
+    "common_names": ["Chinese hibiscus", "Shoe flower"],
+    "botanical_name": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae",
+    "description": {
+      "overview": "An evergreen ornamental shrub with large red flowers, long valued in hair care and fever remedies.",
+      "habitat": "Native to East Asia, widely cultivated as garden ornamental.",
+      "plant_parts_used": ["Flowers", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Not Evaluated (NE)",
+      "sources": ["Kew POWO", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Hair promotion",
+        "context": "Flower extracts in oils and shampoos to promote hair growth."
+      },
+      {
+        "use": "Febrifuge",
+        "context": "Flower teas for fever reduction and as a cooling drink."
+      },
+      {
+        "use": "Poultice for wounds",
+        "context": "Crushed leaves used for minor wounds and skin irritation."
+      }
+    ],
+    "major_constituents": [
+      "Anthocyanins",
+      "Hibiscin",
+      "Mucilage",
+      "Vitamin C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Anthocyanins scavenge free radicals.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Leaf and flower extracts enhance collagen and tissue repair.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Polyphenols reduce inflammatory response in animal models.",
+        "evidence": "Pharm Biol. 2018"
+      }
+    ],
+    "modern_applications": [
+      "Extracts in cosmetic hair and skin-care products.",
+      "Hibiscus tea for antioxidant supplementation."
+    ],
+    "safety": {
+      "acute_toxicity": "Generally safe at normal doses.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "High intake may lower blood pressure—caution in hypotension.",
+        "Rare allergic skin reactions possible."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "J. Ethnopharmacol. 2017",
+      "Pharm Biol. 2018",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "jasminum",
+    "common_names": ["Jasmine"],
+    "botanical_name": "Jasminum spp. (e.g. Jasminum sambac, Jasminum grandiflorum)",
+    "family": "Oleaceae",
+    "description": {
+      "overview": "A group of climbing/floriferous shrubs with aromatic white blossoms used in perfume, tea, traditional skin and mood remedies.",
+      "habitat": "Native to tropical and subtropical Old World regions; cultivated in gardens, hedges, and for garland flowers.",
+      "plant_parts_used": ["Flowers", "Leaves"]
+    },
+    "iucn_status": {
+      "status": "Varies by species; common types are not threatened.",
+      "sources": ["Kew POWO"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Aromatherapy",
+        "context": "Flowers in garlands, oils, and baths for mood and health."
+      },
+      {
+        "use": "Calming teas",
+        "context": "Fresh or dried flowers infused for relaxing, antianxiety effects."
+      },
+      {
+        "use": "Wound healing",
+        "context": "Leaf and flower poultices applied to skin cuts and boils."
+      }
+    ],
+    "major_constituents": [
+      "Jasminol",
+      "Benzyl acetate",
+      "Linalool",
+      "Flavonoids"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Sedative/Anxiolytic",
+        "mechanism": "Aromatics act on GABA receptors (in vitro, animal studies).",
+        "evidence": "Phytother Res. 2018"
+      },
+      {
+        "name": "Antioxidant",
+        "mechanism": "Flavonoids neutralize free radicals.",
+        "evidence": "Food Chem. 2016"
+      },
+      {
+        "name": "Wound healing",
+        "mechanism": "Enhanced tissue regeneration when used topically.",
+        "evidence": "J. Ethnopharmacol. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Essential oils in perfumery and relaxation blends.",
+      "Jasmine green tea and calming herbal infusions.",
+      "Cosmetic and skin repair ingredient."
+    ],
+    "safety": {
+      "acute_toxicity": "Safe for aroma and culinary use.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Rare allergies in sensitive individuals.",
+        "Essential oil can irritate skin if undiluted."
+      ]
+    },
+    "references": [
+      "Phytother Res. 2018",
+      "Food Chem. 2016",
+      "J. Ethnopharmacol. 2017",
+      "Toxicol Lett. 2017"
+    ]
+  },
+
+  {
+    "id": "mangifera_indica",
+    "common_names": ["Mango"],
+    "botanical_name": "Mangifera indica",
+    "family": "Anacardiaceae",
+    "description": {
+      "overview": "A tropical fruit tree producing sweet drupes (mangoes), with medicinal uses for bark, leaves and seeds.",
+      "habitat": "Native to South Asia; cultivated globally in the tropics.",
+      "plant_parts_used": ["Fruit", "Leaves", "Bark", "Seed"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["IUCN Red List", "India Biodiversity Portal"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Edible fruit",
+        "context": "Fruit eaten fresh, dried, or processed; unripe for pickles."
+      },
+      {
+        "use": "Bark astringent",
+        "context": "Bark decoction used for diarrhea and oral bleeding."
+      },
+      {
+        "use": "Leaf remedies",
+        "context": "Leaf infusions taken for diabetes and cough."
+      }
+    ],
+    "major_constituents": [
+      "Mangiferin",
+      "Polyphenols",
+      "Tannins",
+      "Beta-carotene",
+      "Vitamin C"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Mangiferin and other polyphenols neutralize ROS.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antidiabetic",
+        "mechanism": "Leaf extracts lower blood glucose in animal models.",
+        "evidence": "J. Diabetes Res. 2018"
+      },
+      {
+        "name": "Anti-inflammatory",
+        "mechanism": "Bark and seed inhibit cytokine production.",
+        "evidence": "Pharm Biol. 2017"
+      }
+    ],
+    "modern_applications": [
+      "Fruit pulp and juice in functional foods.",
+      "Leaf, bark and seed extracts as nutraceuticals for antioxidant support."
+    ],
+    "safety": {
+      "acute_toxicity": "Edible fruit and parts are safe at typical doses.",
+      "source": "Toxicol Lett. 2018",
+      "precautions": [
+        "Unripe fruit may irritate stomach.",
+        "Latex or sap can cause dermatitis."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "J. Diabetes Res. 2018",
+      "Pharm Biol. 2017",
+      "Toxicol Lett. 2018"
+    ]
+  },
+
+  {
+    "id": "manilkara_zapota",
+    "common_names": ["Sapodilla", "Chikoo"],
+    "botanical_name": "Manilkara zapota",
+    "family": "Sapotaceae",
+    "description": {
+      "overview": "A tropical fruit tree bearing sweet, brown fruits, also valued for chicle latex and some folk uses of bark.",
+      "habitat": "Native to Central America and Mexico; cultivated widely in the tropics.",
+      "plant_parts_used": ["Fruit", "Bark", "Latex"]
+    },
+    "iucn_status": {
+      "status": "Least Concern (LC)",
+      "sources": ["Kew POWO", "IUCN Red List"]
+    },
+    "traditional_uses": [
+      {
+        "use": "Edible fruit",
+        "context": "Fruit enjoyed fresh as nutritious dessert."
+      },
+      {
+        "use": "Textile/chewing gum material",
+        "context": "Latex tapped ('chicle') for use in chewing gum."
+      },
+      {
+        "use": "Mild antidiarrheal bark decoction",
+        "context": "Bark tea used in folk medicine for GI upsets."
+      }
+    ],
+    "major_constituents": [
+      "Sugars (fructose, glucose)",
+      "Tannins",
+      "Vitamin C",
+      "Polyphenols"
+    ],
+    "pharmacological_activities": [
+      {
+        "name": "Antioxidant",
+        "mechanism": "Polyphenols scavenge free radicals.",
+        "evidence": "Food Chem. 2017"
+      },
+      {
+        "name": "Antimicrobial",
+        "mechanism": "Bark and seed inhibit growth of oral/pathogenic bacteria.",
+        "evidence": "BMC Complement Altern Med. 2016"
+      }
+    ],
+    "modern_applications": [
+      "Fruit pulps in frozen desserts and superfood mixes.",
+      "Latex used for natural chewing gum base."
+    ],
+    "safety": {
+      "acute_toxicity": "No reported toxicity in traditional or modern use.",
+      "source": "Toxicol Lett. 2017",
+      "precautions": [
+        "Fruit is high in sugar; diabetic patients should moderate use.",
+        "Unprocessed latex not suitable for direct medicinal use."
+      ]
+    },
+    "references": [
+      "Food Chem. 2017",
+      "BMC Complement Altern Med. 2016",
+      "Toxicol Lett. 2017"
+    ]
+  }
+]
+
+
+
+

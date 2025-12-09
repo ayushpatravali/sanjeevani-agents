@@ -1,0 +1,1595 @@
+{
+  "Bagalkot": {
+    "latitude": 16.21802,
+    "longitude": 75.62657,
+    "plants": [
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Punica granatum",
+        "common_name": "Pomegranate",
+        "soil_suitable": "Loam, sandy loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Bv",
+        "soil_label": "Vertic Cambisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Bangalore": {
+    "latitude": 12.94227,
+    "longitude": 77.58684,
+    "plants": [
+      {
+        "botanical_name": "Ficus religiosa",
+        "common_name": "Sacred fig, Peepal tree",
+        "soil_suitable": "Loam, alluvial, sandy loam"
+      },
+      {
+        "botanical_name": "Ocimum tenuiflorum",
+        "common_name": "Holy basil, Tulsi",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Uraria picta",
+        "common_name": "Prishniparni",
+        "soil_suitable": "Sandy loam, humus-rich"
+      }
+    ],
+    "soils": []
+  },
+  "Bangalore Rural": {
+    "latitude": 13.21781,
+    "longitude": 77.56625,
+    "plants": [
+      {
+        "botanical_name": "Amaranthus viridis",
+        "common_name": "Slender amaranth, Green amaranth",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Basella alba",
+        "common_name": "Malabar spinach, Vine spinach",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Manilkara zapota",
+        "common_name": "Sapodilla, Chikoo",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Mentha",
+        "common_name": "Mint",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Murraya koenigii",
+        "common_name": "Curry tree, Curry leaf tree",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Plectranthus amboinicus",
+        "common_name": "Indian borage, Cuban oregano",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Psidium guajava",
+        "common_name": "Guava",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Aegle marmelos",
+        "common_name": "Bael",
+        "soil_suitable": "Sandy loam, red loam"
+      },
+      {
+        "botanical_name": "Spinacia oleracea",
+        "common_name": "Spinach",
+        "soil_suitable": "Loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      }
+    ]
+  },
+  "Bangalore Urban": {
+    "latitude": 12.94227,
+    "longitude": 77.58684,
+    "plants": [
+      {
+        "botanical_name": "Ficus benjamina",
+        "common_name": "Weeping fig, Benjamin fig",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Hibiscus rosa-sinensis",
+        "common_name": "Chinese hibiscus, China rose",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Muntingia calabura",
+        "common_name": "Jamaican cherry, Panama berry",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Nerium oleander",
+        "common_name": "Oleander",
+        "soil_suitable": "Sandy loam, alkaline, neutral"
+      },
+      {
+        "botanical_name": "Nyctanthes arbor-tristis",
+        "common_name": "Night-flowering jasmine, Parijat",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Saraca asoca",
+        "common_name": "Ashoka tree",
+        "soil_suitable": "Loam, humus-rich"
+      },
+      {
+        "botanical_name": "Schefflera arboricola",
+        "common_name": "Dwarf umbrella tree",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Tabernaemontana divaricata",
+        "common_name": "Crape jasmine, Pinwheel flower",
+        "soil_suitable": "Sandy loam, loam"
+      }
+    ],
+    "soils": []
+  },
+  "Belgaum": {
+    "latitude": 16.11779,
+    "longitude": 74.82794,
+    "plants": [
+      {
+        "botanical_name": "Amaranthus viridis",
+        "common_name": "Slender amaranth, Green amaranth",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Ficus religiosa",
+        "common_name": "Sacred fig, Peepal tree",
+        "soil_suitable": "Loam, alluvial, sandy loam"
+      },
+      {
+        "botanical_name": "Ocimum tenuiflorum",
+        "common_name": "Holy basil, Tulsi",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Pongamia pinnata",
+        "common_name": "Indian beech, Pongam tree",
+        "soil_suitable": "Laterite, red loam, sandy loam"
+      },
+      {
+        "botanical_name": "Trigonella foenum-graecum",
+        "common_name": "Fenugreek",
+        "soil_suitable": "Sandy loam, light loam"
+      },
+      {
+        "botanical_name": "Uraria picta",
+        "common_name": "Prishniparni",
+        "soil_suitable": "Sandy loam, humus-rich"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "Bv",
+        "soil_label": "Vertic Cambisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Bellary": {
+    "latitude": 15.10502,
+    "longitude": 76.53054,
+    "plants": [
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Carissa carandas",
+        "common_name": "Karonda, Bengal currant",
+        "soil_suitable": "Sandy loam, alluvial, calcareous, laterite"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Aegle marmelos",
+        "common_name": "Bael",
+        "soil_suitable": "Sandy loam, red loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vp",
+        "soil_label": "Pellic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "I",
+        "soil_label": "Lithosols",
+        "common_soil_name": "Shallow Gravelly Soil / Rocky Soil"
+      }
+    ]
+  },
+  "Bijapur": {
+    "latitude": 16.79153,
+    "longitude": 75.95341,
+    "plants": [
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Punica granatum",
+        "common_name": "Pomegranate",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Trigonella foenum-graecum",
+        "common_name": "Fenugreek",
+        "soil_suitable": "Sandy loam, light loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Chikmagalur": {
+    "latitude": 13.44942,
+    "longitude": 75.68954,
+    "plants": [
+      {
+        "botanical_name": "Alpinia galanga",
+        "common_name": "Greater galangal, Lengkuas, Blue ginger",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Ficus auriculata",
+        "common_name": "Roxburgh fig, Elephant ear fig",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Nilgirianthus ciliatus",
+        "common_name": "Karimkurinji, Kurunji, Chinnakurinji",
+        "soil_suitable": "Red loam, forest soil"
+      },
+      {
+        "botanical_name": "Persea americana",
+        "common_name": "Avocado",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Santalum album",
+        "common_name": "Indian sandalwood",
+        "soil_suitable": "Red sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Andrographis paniculata",
+        "common_name": "Green chiretta, Kalmegh",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Hygrophila auriculata",
+        "common_name": "Marsh barbel, Kokilaksha",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Justicia adhatoda",
+        "common_name": "Malabar nut, Vasaka",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Eclipta prostrata",
+        "common_name": "False daisy",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      }
+    ]
+  },
+  "Chitradurga": {
+    "latitude": 14.16195,
+    "longitude": 76.51245,
+    "plants": [
+      {
+        "botanical_name": "Amaranthus viridis",
+        "common_name": "Slender amaranth, Green amaranth",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Carissa carandas",
+        "common_name": "Karonda, Bengal currant",
+        "soil_suitable": "Sandy loam, alluvial, calcareous, laterite"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Pongamia pinnata",
+        "common_name": "Indian beech, Pongam tree",
+        "soil_suitable": "Laterite, red loam, sandy loam"
+      },
+      {
+        "botanical_name": "Punica granatum",
+        "common_name": "Pomegranate",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Aegle marmelos",
+        "common_name": "Bael",
+        "soil_suitable": "Sandy loam, red loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "I",
+        "soil_label": "Lithosols",
+        "common_soil_name": "Shallow Gravelly Soil / Rocky Soil"
+      }
+    ]
+  },
+  "Dakshina Kannada": {
+    "latitude": 12.83301,
+    "longitude": 75.26665,
+    "plants": [
+      {
+        "botanical_name": "Alpinia galanga",
+        "common_name": "Greater galangal, Lengkuas, Blue ginger",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Basella alba",
+        "common_name": "Malabar spinach, Vine spinach",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Muntingia calabura",
+        "common_name": "Jamaican cherry, Panama berry",
+        "soil_suitable": "Sandy loam, loam, laterite"
+      },
+      {
+        "botanical_name": "Murraya koenigii",
+        "common_name": "Curry tree, Curry leaf tree",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Nilgirianthus ciliatus",
+        "common_name": "Karimkurinji, Kurunji, Chinnakurinji",
+        "soil_suitable": "Red loam, forest soil"
+      },
+      {
+        "botanical_name": "Piper betle",
+        "common_name": "Betel leaf",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Plectranthus amboinicus",
+        "common_name": "Indian borage, Cuban oregano",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Syzygium cumini",
+        "common_name": "Java plum, Jamun",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Syzygium jambos",
+        "common_name": "Rose apple",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Andrographis paniculata",
+        "common_name": "Green chiretta, Kalmegh",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Eclipta prostrata",
+        "common_name": "False daisy",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Dipterocarpus indicus",
+        "common_name": "Kalpain and Karanjili",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Diospyros paniculata",
+        "common_name": "Panicle-flowered Ebony",
+        "soil_suitable": "Loam, forest soil"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Nd",
+        "soil_label": "Distric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      },
+      {
+        "DOMSOI": "Rd",
+        "soil_label": "Dystric Regosols",
+        "common_soil_name": "Coastal Sandy Soil / Regur Soil"
+      }
+    ]
+  },
+  "Davanagere": {
+    "latitude": 14.35155,
+    "longitude": 75.93135,
+    "plants": [
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Dipterocarpus indicus",
+        "common_name": "Kalpain and Karanjili",
+        "soil_suitable": "Laterite, red loam"
+      }
+    ],
+    "soils": []
+  },
+  "Dharwad": {
+    "latitude": 15.38645,
+    "longitude": 75.1562,
+    "plants": [
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Psidium guajava",
+        "common_name": "Guava",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Trigonella foenum-graecum",
+        "common_name": "Fenugreek",
+        "soil_suitable": "Sandy loam, light loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Gulbarga": {
+    "latitude": 17.25711,
+    "longitude": 76.86716,
+    "plants": [
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "Bv",
+        "soil_label": "Vertic Cambisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Hassan": {
+    "latitude": 12.98962,
+    "longitude": 76.1049,
+    "plants": [
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Nilgirianthus ciliatus",
+        "common_name": "Karimkurinji, Kurunji, Chinnakurinji",
+        "soil_suitable": "Red loam, forest soil"
+      },
+      {
+        "botanical_name": "Persea americana",
+        "common_name": "Avocado",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Dipterocarpus indicus",
+        "common_name": "Kalpain and Karanjili",
+        "soil_suitable": "Laterite, red loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      }
+    ]
+  },
+  "Haveri": {
+    "latitude": 14.73442,
+    "longitude": 75.41857,
+    "plants": [
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Trigonella foenum-graecum",
+        "common_name": "Fenugreek",
+        "soil_suitable": "Sandy loam, light loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vc",
+        "soil_label": "Chromic Vertisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Kodagu": {
+    "latitude": 12.31872,
+    "longitude": 75.79915,
+    "plants": [
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Ficus auriculata",
+        "common_name": "Roxburgh fig, Elephant ear fig",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Persea americana",
+        "common_name": "Avocado",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Santalum album",
+        "common_name": "Indian sandalwood",
+        "soil_suitable": "Red sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Syzygium jambos",
+        "common_name": "Rose apple",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Dipterocarpus indicus",
+        "common_name": "Kalpain and Karanjili",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      }
+    ]
+  },
+  "Kolar": {
+    "latitude": 13.12872,
+    "longitude": 78.20853,
+    "plants": [
+      {
+        "botanical_name": "Amaranthus viridis",
+        "common_name": "Slender amaranth, Green amaranth",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Carissa carandas",
+        "common_name": "Karonda, Bengal currant",
+        "soil_suitable": "Sandy loam, alluvial, calcareous, laterite"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Manilkara zapota",
+        "common_name": "Sapodilla, Chikoo",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Mentha",
+        "common_name": "Mint",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Psidium guajava",
+        "common_name": "Guava",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Punica granatum",
+        "common_name": "Pomegranate",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Syzygium cumini",
+        "common_name": "Java plum, Jamun",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Aegle marmelos",
+        "common_name": "Bael",
+        "soil_suitable": "Sandy loam, red loam"
+      },
+      {
+        "botanical_name": "Spinacia oleracea",
+        "common_name": "Spinach",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Cinnamomum macrocarpum",
+        "common_name": "Wild Cinnamon",
+        "soil_suitable": "Loam, forest soil"
+      }
+    ],
+    "soils": []
+  },
+  "Mandya": {
+    "latitude": 12.6036,
+    "longitude": 76.79054,
+    "plants": [
+      {
+        "botanical_name": "Basella alba",
+        "common_name": "Malabar spinach, Vine spinach",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Murraya koenigii",
+        "common_name": "Curry tree, Curry leaf tree",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Nyctanthes arbor-tristis",
+        "common_name": "Night-flowering jasmine, Parijat",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Spinacia oleracea",
+        "common_name": "Spinach",
+        "soil_suitable": "Loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      },
+      {
+        "DOMSOI": "WR",
+        "soil_label": "others",
+        "common_soil_name": "Others"
+      }
+    ]
+  },
+  "Mangalore": {
+    "latitude": 12.83301,
+    "longitude": 75.26665,
+    "plants": [
+      {
+        "botanical_name": "Ficus benjamina",
+        "common_name": "Weeping fig, Benjamin fig",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Hibiscus rosa-sinensis",
+        "common_name": "Chinese hibiscus, China rose",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Muntingia calabura",
+        "common_name": "Jamaican cherry, Panama berry",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Nerium oleander",
+        "common_name": "Oleander",
+        "soil_suitable": "Sandy loam, alkaline, neutral"
+      },
+      {
+        "botanical_name": "Schefflera arboricola",
+        "common_name": "Dwarf umbrella tree",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Tabernaemontana divaricata",
+        "common_name": "Crape jasmine, Pinwheel flower",
+        "soil_suitable": "Sandy loam, loam"
+      }
+    ],
+    "soils": []
+  },
+  "Mysore": {
+    "latitude": 12.20218,
+    "longitude": 76.43605,
+    "plants": [
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Basella alba",
+        "common_name": "Malabar spinach, Vine spinach",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Ficus benjamina",
+        "common_name": "Weeping fig, Benjamin fig",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Ficus religiosa",
+        "common_name": "Sacred fig, Peepal tree",
+        "soil_suitable": "Loam, alluvial, sandy loam"
+      },
+      {
+        "botanical_name": "Hibiscus rosa-sinensis",
+        "common_name": "Chinese hibiscus, China rose",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mentha",
+        "common_name": "Mint",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Muntingia calabura",
+        "common_name": "Jamaican cherry, Panama berry",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Murraya koenigii",
+        "common_name": "Curry tree, Curry leaf tree",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Nerium oleander",
+        "common_name": "Oleander",
+        "soil_suitable": "Sandy loam, alkaline, neutral"
+      },
+      {
+        "botanical_name": "Nyctanthes arbor-tristis",
+        "common_name": "Night-flowering jasmine, Parijat",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Ocimum tenuiflorum",
+        "common_name": "Holy basil, Tulsi",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Saraca asoca",
+        "common_name": "Ashoka tree",
+        "soil_suitable": "Loam, humus-rich"
+      },
+      {
+        "botanical_name": "Schefflera arboricola",
+        "common_name": "Dwarf umbrella tree",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Spinacia oleracea",
+        "common_name": "Spinach",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Santalum album",
+        "common_name": "Indian sandalwood",
+        "soil_suitable": "Red sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Hygrophila auriculata",
+        "common_name": "Marsh barbel, Kokilaksha",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Justicia adhatoda",
+        "common_name": "Malabar nut, Vasaka",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Eclipta prostrata",
+        "common_name": "False daisy",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Uraria picta",
+        "common_name": "Prishniparni",
+        "soil_suitable": "Sandy loam, humus-rich"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "I",
+        "soil_label": "Lithosols",
+        "common_soil_name": "Shallow Gravelly Soil / Rocky Soil"
+      }
+    ]
+  },
+  "Raichur": {
+    "latitude": 16.08552,
+    "longitude": 76.89012,
+    "plants": [
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Vp",
+        "soil_label": "Pellic Vertisols",
+        "common_soil_name": "Black Soil"
+      },
+      {
+        "DOMSOI": "Bv",
+        "soil_label": "Vertic Cambisols",
+        "common_soil_name": "Black Soil"
+      }
+    ]
+  },
+  "Ramanagara": {
+    "latitude": 12.67003,
+    "longitude": 77.32772,
+    "plants": [
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Manilkara zapota",
+        "common_name": "Sapodilla, Chikoo",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Psidium guajava",
+        "common_name": "Guava",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Phyllanthus acidus",
+        "common_name": "Otaheite gooseberry, Star gooseberry",
+        "soil_suitable": "Sandy loam, loam"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Lc",
+        "soil_label": "Chromic Luvisols",
+        "common_soil_name": "Red Soil"
+      },
+      {
+        "DOMSOI": "I",
+        "soil_label": "Lithosols",
+        "common_soil_name": "Shallow Gravelly Soil / Rocky Soil"
+      }
+    ]
+  },
+  "Shimoga": {
+    "latitude": 14.05222,
+    "longitude": 75.17608,
+    "plants": [
+      {
+        "botanical_name": "Alpinia galanga",
+        "common_name": "Greater galangal, Lengkuas, Blue ginger",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Ficus auriculata",
+        "common_name": "Roxburgh fig, Elephant ear fig",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Manilkara zapota",
+        "common_name": "Sapodilla, Chikoo",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Persea americana",
+        "common_name": "Avocado",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Piper betle",
+        "common_name": "Betel leaf",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Pongamia pinnata",
+        "common_name": "Indian beech, Pongam tree",
+        "soil_suitable": "Laterite, red loam, sandy loam"
+      },
+      {
+        "botanical_name": "Santalum album",
+        "common_name": "Indian sandalwood",
+        "soil_suitable": "Red sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Andrographis paniculata",
+        "common_name": "Green chiretta, Kalmegh",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Hygrophila auriculata",
+        "common_name": "Marsh barbel, Kokilaksha",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Justicia adhatoda",
+        "common_name": "Malabar nut, Vasaka",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Eclipta prostrata",
+        "common_name": "False daisy",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Cinnamomum macrocarpum",
+        "common_name": "Wild Cinnamon",
+        "soil_suitable": "Loam, forest soil"
+      },
+      {
+        "botanical_name": "Diospyros paniculata",
+        "common_name": "Panicle-flowered Ebony",
+        "soil_suitable": "Loam, forest soil"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ne",
+        "soil_label": "Eutric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      }
+    ]
+  },
+  "Tumkur": {
+    "latitude": 13.41875,
+    "longitude": 76.89662,
+    "plants": [
+      {
+        "botanical_name": "Amaranthus viridis",
+        "common_name": "Slender amaranth, Green amaranth",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Azadirachta indica",
+        "common_name": "Neem, Indian lilac",
+        "soil_suitable": "Sandy loam, black cotton, stony"
+      },
+      {
+        "botanical_name": "Brassica juncea",
+        "common_name": "Mustard greens, Indian mustard",
+        "soil_suitable": "Loam, sandy, clay"
+      },
+      {
+        "botanical_name": "Carissa carandas",
+        "common_name": "Karonda, Bengal currant",
+        "soil_suitable": "Sandy loam, alluvial, calcareous, laterite"
+      },
+      {
+        "botanical_name": "Citrus limon",
+        "common_name": "Lemon",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Ficus religiosa",
+        "common_name": "Sacred fig, Peepal tree",
+        "soil_suitable": "Loam, alluvial, sandy loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Mangifera indica",
+        "common_name": "Mango",
+        "soil_suitable": "Alluvial loam, lateritic loam"
+      },
+      {
+        "botanical_name": "Manilkara zapota",
+        "common_name": "Sapodilla, Chikoo",
+        "soil_suitable": "Sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Mentha",
+        "common_name": "Mint",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Moringa oleifera",
+        "common_name": "Drumstick tree, Moringa",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Nerium oleander",
+        "common_name": "Oleander",
+        "soil_suitable": "Sandy loam, alkaline, neutral"
+      },
+      {
+        "botanical_name": "Ocimum tenuiflorum",
+        "common_name": "Holy basil, Tulsi",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Pongamia pinnata",
+        "common_name": "Indian beech, Pongam tree",
+        "soil_suitable": "Laterite, red loam, sandy loam"
+      },
+      {
+        "botanical_name": "Psidium guajava",
+        "common_name": "Guava",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Punica granatum",
+        "common_name": "Pomegranate",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Santalum album",
+        "common_name": "Indian sandalwood",
+        "soil_suitable": "Red sandy loam, laterite"
+      },
+      {
+        "botanical_name": "Syzygium cumini",
+        "common_name": "Java plum, Jamun",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Aegle marmelos",
+        "common_name": "Bael",
+        "soil_suitable": "Sandy loam, red loam"
+      },
+      {
+        "botanical_name": "Spinacia oleracea",
+        "common_name": "Spinach",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Trigonella foenum-graecum",
+        "common_name": "Fenugreek",
+        "soil_suitable": "Sandy loam, light loam"
+      },
+      {
+        "botanical_name": "Justicia adhatoda",
+        "common_name": "Malabar nut, Vasaka",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Phyllanthus acidus",
+        "common_name": "Otaheite gooseberry, Star gooseberry",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Uraria picta",
+        "common_name": "Prishniparni",
+        "soil_suitable": "Sandy loam, humus-rich"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Lc",
+        "soil_label": "Chromic Luvisols",
+        "common_soil_name": "Red Soil"
+      },
+      {
+        "DOMSOI": "I",
+        "soil_label": "Lithosols",
+        "common_soil_name": "Shallow Gravelly Soil / Rocky Soil"
+      }
+    ]
+  },
+  "Udupi": {
+    "latitude": 13.33204,
+    "longitude": 74.69077,
+    "plants": [
+      {
+        "botanical_name": "Alpinia galanga",
+        "common_name": "Greater galangal, Lengkuas, Blue ginger",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Basella alba",
+        "common_name": "Malabar spinach, Vine spinach",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Ficus religiosa",
+        "common_name": "Sacred fig, Peepal tree",
+        "soil_suitable": "Loam, alluvial, sandy loam"
+      },
+      {
+        "botanical_name": "Hibiscus rosa-sinensis",
+        "common_name": "Chinese hibiscus, China rose",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Jasminum",
+        "common_name": "Jasmine",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Murraya koenigii",
+        "common_name": "Curry tree, Curry leaf tree",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Nilgirianthus ciliatus",
+        "common_name": "Karimkurinji, Kurunji, Chinnakurinji",
+        "soil_suitable": "Red loam, forest soil"
+      },
+      {
+        "botanical_name": "Nyctanthes arbor-tristis",
+        "common_name": "Night-flowering jasmine, Parijat",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Ocimum tenuiflorum",
+        "common_name": "Holy basil, Tulsi",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Piper betle",
+        "common_name": "Betel leaf",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Plectranthus amboinicus",
+        "common_name": "Indian borage, Cuban oregano",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Saraca asoca",
+        "common_name": "Ashoka tree",
+        "soil_suitable": "Loam, humus-rich"
+      },
+      {
+        "botanical_name": "Syzygium cumini",
+        "common_name": "Java plum, Jamun",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Syzygium jambos",
+        "common_name": "Rose apple",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Tabernaemontana divaricata",
+        "common_name": "Crape jasmine, Pinwheel flower",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Andrographis paniculata",
+        "common_name": "Green chiretta, Kalmegh",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Justicia adhatoda",
+        "common_name": "Malabar nut, Vasaka",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Eclipta prostrata",
+        "common_name": "False daisy",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Diospyros paniculata",
+        "common_name": "Panicle-flowered Ebony",
+        "soil_suitable": "Loam, forest soil"
+      },
+      {
+        "botanical_name": "Uraria picta",
+        "common_name": "Prishniparni",
+        "soil_suitable": "Sandy loam, humus-rich"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Rd",
+        "soil_label": "Dystric Regosols",
+        "common_soil_name": "Coastal Sandy Soil / Regur Soil"
+      }
+    ]
+  },
+  "Uttara Kannada": {
+    "latitude": 14.00843,
+    "longitude": 74.48121,
+    "plants": [
+      {
+        "botanical_name": "Alpinia galanga",
+        "common_name": "Greater galangal, Lengkuas, Blue ginger",
+        "soil_suitable": "Sandy loam, loam"
+      },
+      {
+        "botanical_name": "Artocarpus heterophyllus",
+        "common_name": "Jackfruit",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Bambusoideae",
+        "common_name": "Bamboo",
+        "soil_suitable": "Sandy loam, clay loam"
+      },
+      {
+        "botanical_name": "Ficus auriculata",
+        "common_name": "Roxburgh fig, Elephant ear fig",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Piper betle",
+        "common_name": "Betel leaf",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Pongamia pinnata",
+        "common_name": "Indian beech, Pongam tree",
+        "soil_suitable": "Laterite, red loam, sandy loam"
+      },
+      {
+        "botanical_name": "Saraca asoca",
+        "common_name": "Ashoka tree",
+        "soil_suitable": "Loam, humus-rich"
+      },
+      {
+        "botanical_name": "Syzygium cumini",
+        "common_name": "Java plum, Jamun",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Syzygium jambos",
+        "common_name": "Rose apple",
+        "soil_suitable": "Loam"
+      },
+      {
+        "botanical_name": "Andrographis paniculata",
+        "common_name": "Green chiretta, Kalmegh",
+        "soil_suitable": "Sandy loam"
+      },
+      {
+        "botanical_name": "Hygrophila auriculata",
+        "common_name": "Marsh barbel, Kokilaksha",
+        "soil_suitable": "Loam, alluvial"
+      },
+      {
+        "botanical_name": "Rauvolfia serpentina",
+        "common_name": "Sarpagandha",
+        "soil_suitable": "Loam, sandy loam"
+      },
+      {
+        "botanical_name": "Dipterocarpus indicus",
+        "common_name": "Kalpain and Karanjili",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Calophyllum apetalum",
+        "common_name": "Cherupunna",
+        "soil_suitable": "Laterite, red loam"
+      },
+      {
+        "botanical_name": "Cinnamomum macrocarpum",
+        "common_name": "Wild Cinnamon",
+        "soil_suitable": "Loam, forest soil"
+      },
+      {
+        "botanical_name": "Diospyros paniculata",
+        "common_name": "Panicle-flowered Ebony",
+        "soil_suitable": "Loam, forest soil"
+      }
+    ],
+    "soils": [
+      {
+        "DOMSOI": "Ap",
+        "soil_label": "Plinthic Acrisols",
+        "common_soil_name": "Lateritic Soil"
+      },
+      {
+        "DOMSOI": "Nd",
+        "soil_label": "Distric Nitosols",
+        "common_soil_name": "Red Loamy Soil"
+      },
+      {
+        "DOMSOI": "Rd",
+        "soil_label": "Dystric Regosols",
+        "common_soil_name": "Coastal Sandy Soil / Regur Soil"
+      }
+    ]
+  }
+}

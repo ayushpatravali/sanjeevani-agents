@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+data/karnataka_districts.geojson
+# Only ignore large files or personal data. 
+# We keep json data if small, but geojson might be large (it was <500kb so okay to keep or ignore).
+# Let's keep it for portability unless user wants clean repo.
+# data/Gis_info.json 
+# data/detailed_info.json
+
+# VS Code
+.vscode/

@@ -1,0 +1,7 @@
+Querying for: Amaranthus viridis
+Found 5 results (BM25):
+- District: Chitradurga
+- District: Chitradurga
+- District: Belgaum
+- District: Belgaum
+- District: Kolar
