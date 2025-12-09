@@ -40,86 +40,75 @@ class GISAgent(BaseAgent):
             # Query the unified GISLocation collection
             # Use weaviate_manager directly as BaseAgent doesn't expose self.client
             from src.database.weaviate_client import weaviate_manager
-            import json
+            from weaviate.classes.query import Filter
             
             if not weaviate_manager.client:
                 weaviate_manager.connect()
                 
             collection = weaviate_manager.client.collections.get(settings.GIS_LOCATION_COLLECTION)
             
-            # Cascading Search Strategy
-            search_candidates = []
+            candidates = []
             if plant_names:
-                search_candidates.extend(plant_names)
+                candidates.extend(plant_names)
+            else:
+                candidates.append(query)
+                
+            # Clean candidates (Title case usually matches better for plants)
+            search_terms = []
+            for c in candidates:
+                search_terms.append(c.lower())
+                search_terms.append(c.title())
             
-            # Add regex matches as fallback candidates
-            import re
-            matches = re.findall(r'\b([A-Z][a-z]+ [a-z]+(?:-[a-z]+)?)\b', query)
-            stopwords = {"Where", "What", "When", "How", "Why", "Does", "Is", "Are", "Can", "Find", "Show", "Give", "Tell", "Location", "Map", "District"}
-            for m in matches:
-                if m.split()[0] not in stopwords and m not in search_candidates:
-                    search_candidates.append(m)
+            search_terms = list(set(search_terms))
+            logger.info(f"GISAgent Searching Districts for: {search_terms}")
             
-            # Add raw query words (excluding stopwords) if nothing else
-            if not search_candidates:
-                words = [w for w in query.split() if w not in stopwords]
-                search_candidates.append(" ".join(words))
-
-            logger.info(f"GISAgent Search Candidates: {search_candidates}")
-            
-            response = None
-            for candidate in search_candidates:
-                logger.info(f"GISAgent querying BM25 for: {candidate}")
-                try:
-                    resp = collection.query.bm25(
-                        query=candidate,
-                        query_properties=["plant_name", "common_names"],
-                        limit=5
-                    )
-                    if resp and resp.objects:
-                        response = resp
-                        logger.info(f"Found {len(resp.objects)} results for {candidate}")
-                        break # Stop if found
-                except Exception as e:
-                    logger.error(f"GIS BM25 search failed for {candidate}: {e}")
+            # The Schema is: District Object -> has 'plants' array
+            # We want to find all districts where 'plants' contains our target
             
             results = []
-            habitat_info = ""
-            
-            if response and response.objects:
-                # Take the best match
-                obj = response.objects[0]
-                props = obj.properties
+            try:
+                # 1. Try Exact Filter (Best for specific plants)
+                response = collection.query.fetch_objects(
+                    filters=Filter.by_property("plants").contains_any(search_terms),
+                    limit=100
+                )
                 
-                # Get habitat info
-                habitat_info = props.get("habitat", "")
-                
-                # Parse locations
-                loc_json = props.get("locations_json", "[]")
-                try:
-                    locations = json.loads(loc_json)
-                    for loc in locations:
+                if not response.objects:
+                    # 2. Fallback to BM25 if filter finds nothing (maybe partial match?)
+                    # Searching the 'plants' array for the query string
+                    logger.info("Filter found nothing, trying BM25 fallback...")
+                    response = collection.query.bm25(
+                        query=query,
+                        query_properties=["plants"],
+                        limit=20
+                    )
+
+                for obj in response.objects:
+                    props = obj.properties
+                    d_name = props.get("district")
+                    if d_name:
                         results.append({
-                            "district": loc.get("district"),
-                            "latitude": loc.get("latitude"),
-                            "longitude": loc.get("longitude"),
-                            "soils": loc.get("soils")
+                            "district": d_name,
+                            "soils": props.get("soils", "Unknown")
                         })
-                except:
-                    logger.warning("Failed to parse locations_json")
-            
+                        
+            except Exception as e:
+                 logger.error(f"GIS Search Error: {e}")
+
             if not results:
-                summary = f"No specific district location data found for {target_plant} in the Karnataka GIS database. Habitat: {habitat_info}"
+                summary = f"No specific district data found for '{target_plant}' in the database."
             else:
-                district_names = [r['district'] for r in results if r.get('district')]
+                district_names = [r['district'] for r in results]
                 unique_districts = sorted(list(set(district_names)))
                 districts_str = ", ".join(unique_districts)
-                summary = f"Found in {len(unique_districts)} districts in Karnataka: {districts_str}. Habitat: {habitat_info}"
+                if len(unique_districts) > 10:
+                    districts_str = ", ".join(unique_districts[:10]) + f" and {len(unique_districts)-10} others"
+                    
+                summary = f"Found '{target_plant}' in {len(unique_districts)} districts: {districts_str}."
 
             return {
                 "agent": "GISAgent",
-                "results": results,
-                "habitat": habitat_info,
+                "results": results, # List of {district, soils}
                 "summary": summary
             }
             

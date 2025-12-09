@@ -34,9 +34,16 @@ def recognize_speech():
                 st.warning("Could not understand audio.")
             except sr.RequestError:
                 st.error("Speech service unavailable.")
+            except sr.RequestError:
+                st.error("Speech service unavailable.")
     except AttributeError:
-        st.error("🎤 Voice input unavailable. PyAudio is not installed.")
+        st.warning("🎤 Voice input unavailable. PyAudio is not installed (Common on Cloud).")
+        return None
     except Exception as e:
+        err_str = str(e).lower()
+        if "no default input device" in err_str or "input device available" in err_str:
+             st.warning("⚠️ No microphone detected. Voice input is disabled on this server.")
+             return None
         st.error(f"🎤 Microphone error: {e}")
     return None
 
@@ -70,7 +77,8 @@ def get_debug_plants():
         collection = weaviate_manager.client.collections.get(settings.GIS_LOCATION_COLLECTION)
         # Fetch a small batch
         response = collection.query.fetch_objects(limit=10)
-        return [obj.properties.get("plant_name") for obj in response.objects]
+        # Fix: Schema has 'district' and 'plants', not 'plant_name'
+        return [f"{obj.properties.get('district')}: {len(obj.properties.get('plants', []))} plants" for obj in response.objects]
     except Exception as e:
         return [f"Error: {e}"]
 
