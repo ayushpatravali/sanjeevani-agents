@@ -27,7 +27,13 @@ class BaseAgent(ABC):
     # ---------- private helpers ----------
     def _connect(self) -> bool:
         """Ensure connection to Weaviate and set the collection handle."""
-        if not weaviate_manager.client or not weaviate_manager.client.is_ready():
+        # Robust connection check
+        try:
+            if not weaviate_manager.client or not weaviate_manager.client.is_ready():
+                 if not weaviate_manager.connect():
+                     return False
+        except Exception as e:
+            logger.warning(f"Health check failed ({e}), forcing reconnection...")
             if not weaviate_manager.connect():
                 return False
         
