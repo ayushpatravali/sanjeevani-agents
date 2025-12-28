@@ -91,6 +91,23 @@ def chat_page(agent):
     if st.sidebar.button("Load Sample Plants"):
         plants = get_debug_plants()
         st.sidebar.write(plants)
+        
+    st.sidebar.markdown("### ⚠️ Admin Zone")
+    with st.sidebar.expander("Reset Cloud Data"):
+        st.warning("This will DELETE and RE-UPLOAD all data.")
+        if st.button("🔴 Confirm Re-Ingest"):
+            with st.spinner("Ingesting data to Cloud..."):
+                try:
+                    import src.scripts.ingest_to_cloud as ingestor
+                    # Reload to ensure fresh env vars if needed
+                    import importlib
+                    importlib.reload(ingestor)
+                    
+                    # Run non-interactively
+                    ingestor.main(interactive=False)
+                    st.success("✅ Data Ingestion Complete!")
+                except Exception as e:
+                    st.error(f"Ingestion failed: {e}")
 
     st.title("🌿 Sanjeevani Plant Assistant")
     

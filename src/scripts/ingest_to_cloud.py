@@ -18,12 +18,12 @@ from src.config.settings import settings
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-def main():
+def main(interactive=True):
     print("🚀 Starting Cloud Ingestion...")
     w_url = os.getenv("WEAVIATE_URL")
     print(f"Target URL: {w_url}")
     
-    if "localhost" in w_url or "127.0.0.1" in w_url:
+    if interactive and ("localhost" in w_url or "127.0.0.1" in w_url):
         print("⚠️ WARNING: You are pointing to LOCALHOST. Use the Cloud URL if you want to push to WCS.")
         confirm = input("Continue? (y/n): ")
         if confirm.lower() != 'y':

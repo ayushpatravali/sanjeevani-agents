@@ -35,7 +35,8 @@ class WeaviateManager:
                 # Fix deprecation: connect_to_wcs -> connect_to_weaviate_cloud
                 self.client = weaviate.connect_to_weaviate_cloud(
                     cluster_url=url,
-                    auth_credentials=weaviate.auth.AuthApiKey(api_key)
+                    auth_credentials=weaviate.auth.AuthApiKey(api_key),
+                    skip_init_checks=True  # Bypass gRPC health check for restrictive networks
                 )
             
             # Local Custom Connection (with Auth)
