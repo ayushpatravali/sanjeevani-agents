@@ -105,7 +105,13 @@ def chat_page(agent):
                     
                     # Run non-interactively
                     ingestor.main(interactive=False)
-                    st.success("✅ Data Ingestion Complete!")
+                    
+                    # Force reconnect because ingestion might have closed/reset the connection
+                    if not weaviate_manager.connect():
+                         st.error("Ingestion done, but failed to reconnect. Please reload the page.")
+                    else:
+                         st.success("✅ Data Ingestion Complete! Connection restored.")
+                         
                 except Exception as e:
                     st.error(f"Ingestion failed: {e}")
 
