@@ -126,7 +126,21 @@ class BaseAgent(ABC):
                     )
                     exact_matches.extend([hit.properties for hit in botanical_results.objects])
                 except Exception as e:
-                    logger.debug(f"Botanical name filter failed for {plant_name}: {e}")
+                    # Retry once on connection error
+                    logger.warning(f"Botanical filter failed ({e}). Retrying after reconnect...")
+                    if self._connect():
+                         try:
+                             botanical_results = self.collection.query.near_text(
+                                query=query,
+                                where={
+                                    "path": ["botanical_name"],
+                                    "operator": "Like",
+                                    "valueText": f"*{plant_name}*"
+                                },
+                                limit=limit
+                            )
+                             exact_matches.extend([hit.properties for hit in botanical_results.objects])
+                         except: pass
 
             # If we have exact matches, return those
             if exact_matches:
@@ -204,9 +218,16 @@ class BaseAgent(ABC):
             results = self.collection.query.near_text(query=query, limit=limit)
             return [hit.properties for hit in results.objects]
         except Exception as e:
-            logger.warning(f"{self.name} semantic search (near_text) failed: {e}. Attempting BM25 Fallback.")
+            logger.warning(f"{self.name} semantic search failed: {e}. Attempting Reconnect...")
+            if self._connect():
+                try:
+                    results = self.collection.query.near_text(query=query, limit=limit)
+                    return [hit.properties for hit in results.objects]
+                except: pass
+            
+            logger.warning("Retrying with BM25...")
             try:
-                # BM25 Fallback for environments without vectorizer (e.g., WCS Free Tier)
+                # BM25 Fallback for environments without vectorizer
                 results = self.collection.query.bm25(query=query, limit=limit)
                 return [hit.properties for hit in results.objects]
             except Exception as e2:
