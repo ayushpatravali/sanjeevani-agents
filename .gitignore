@@ -42,5 +42,9 @@ Thumbs.db
 # data/Gis_info.json 
 # data/detailed_info.json
 
+
+# Internal Documentation
+DEVELOPER_MANUAL.md
+
 # VS Code
 .vscode/
